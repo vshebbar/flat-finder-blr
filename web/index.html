@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+  <title>Flat Finder · Bengaluru</title>
+  <meta name="description" content="Every housing society in Bengaluru on one map. Filter by the smallest bedroom you can live with, buy or rent budget, amenities and what is nearby.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="map"></div>
+
+  <div class="topbar">
+    <button id="btn-guide" title="How this works">Guide</button>
+    <button id="btn-replay" title="Replay the intro">Replay</button>
+    <button id="btn-tour" title="Fly through the matches">Tour</button>
+    <button id="btn-theme" title="Light or dark" aria-label="Switch light or dark"></button>
+    <button id="btn-log" title="Show or hide the right panel">Research log</button>
+    <button id="btn-hide" title="Hide panels for recording">Hide panels</button>
+    <button id="btn-mhide" class="mobile-only" title="Show or hide the panel">Hide panel</button>
+  </div>
+
+  <div class="mtabs" id="mtabs"><button data-t="search" class="on">Search</button><button data-t="society" id="mt-society" disabled>Society</button><button class="collapse" id="m-collapse" aria-label="Collapse panel">⌄</button></div>
+
+  <aside class="panel left" id="filters">
+    <div class="k">Flat Finder · <select id="city-pick" aria-label="City"></select></div>
+    <h1 class="ttl">Find the flat that fits.</h1>
+    <div class="search">
+      <input id="q" type="search" placeholder="Search a society, developer or locality" autocomplete="off" aria-label="Search societies">
+      <kbd>/</kbd>
+      <ol id="q-results" hidden></ol>
+    </div>
+    <div class="row-between">
+      <div class="seg" id="f-mode"><button data-m="buy">Buy</button><button data-m="rent">Rent</button></div>
+      <button class="preset" id="preset-divy">Load Bengaluru example</button>
+    </div>
+    <div class="pill" id="q-pill" hidden></div>
+
+    <section>
+      <div class="k">Type</div>
+      <div class="tiles" id="f-kind"></div>
+    </section>
+    <section>
+      <div class="k">BHK</div>
+      <div class="chips" id="f-bhk"></div>
+    </section>
+    <section>
+      <div class="k row">Smallest bedroom <span class="seg small" id="f-room-mode"><button data-r="off">Any</button><button data-r="area">Area</button></span></div>
+      <div id="f-area">
+        <div class="k row"><span class="seg small" id="f-area-unit"><button data-u="gaj">Gaj</button><button data-u="sqft">Sq ft</button></span><span class="val" id="v-area"></span></div>
+        <input type="range" id="f-area-range" min="8" max="30" step="0.25" value="15.3">
+      </div>
+      <div class="hint" id="room-hint">Every bedroom must clear it.</div>
+      <label class="sw"><input type="checkbox" id="f-est" checked> Include "probably fits" (estimated from unit size)</label>
+    </section>
+    <section>
+      <div class="k row">Home size <span class="val" id="v-size">Any</span></div>
+      <div id="f-size"></div>
+    </section>
+    <section>
+      <div class="k row"><span id="l-price">Budget</span> <span class="val" id="v-price">Any</span></div>
+      <div id="f-price"></div>
+    </section>
+    <section>
+      <div class="k">Amenities</div>
+      <div class="chips" id="f-amen"></div>
+      <div class="more" id="amen-more" hidden>
+        <input type="search" id="amen-q" placeholder="Find an amenity" aria-label="Find an amenity">
+        <div class="checklist" id="amen-list"></div>
+      </div>
+    </section>
+    <section>
+      <div class="k">Nearby</div>
+      <div class="chips" id="f-near"></div>
+    </section>
+    <section>
+      <label class="sw"><input type="checkbox" id="f-ready"> Ready to move only</label>
+    </section>
+    <section class="mylist">
+      <div class="k row">My list <span class="val" id="v-list">empty</span></div>
+      <div class="row-gap">
+        <label class="sw"><input type="checkbox" id="f-only"> Show only my list</label>
+        <button class="linkbtn" id="btn-paste">Paste names</button>
+        <button class="linkbtn" id="btn-share">Share list</button>
+      </div>
+    </section>
+
+    <div class="count">
+      <div class="k">Matching societies</div>
+      <div class="n" id="count">0</div>
+      <div class="sub" id="count-sub"></div>
+    </div>
+    <div class="k row">Results <select id="f-sort" aria-label="Sort results">
+      <option value="best">Best match</option><option value="score">Flat Finder score</option><option value="rating">Resident rating</option>
+      <option value="price">Price, low to high</option><option value="listings">Most listings</option></select></div>
+    <div id="results"></div>
+
+    <div class="downloads">
+      <div class="k">Download</div>
+      <button class="dl" id="dl-results"><svg viewBox="0 0 24 24"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg><span><b>These results</b><small>CSV of what your filters match</small></span></button>
+      <a class="dl" id="dl-all" download><svg viewBox="0 0 24 24"><path d="M4 5h16M4 10h16M4 15h16M4 20h10"/></svg><span><b>All societies</b><small>Every society, prices, ratings, links</small></span></a>
+      <a class="dl" id="dl-units" download><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4zM4 12h16M12 4v16"/></svg><span><b>Unit types and bedrooms</b><small>Every unit with room sizes and sources</small></span></a>
+    </div>
+    <p class="fine about" id="about-prices"></p>
+  </aside>
+
+  <aside class="panel right" id="log">
+    <div class="k row">Research log <span class="row-gap"><span class="val" id="log-mode">replay</span><button class="iconbtn" id="log-close" aria-label="Hide research log" title="Hide">×</button></span></div>
+    <div class="feed" id="feed"></div>
+  </aside>
+
+  <article class="card" id="card" hidden></article>
+
+  <div class="controls">
+    <div class="layers" id="layers">
+      <div class="layer-menu">
+        <button data-mode="night"><i class="sw-night"></i>Night</button>
+        <button data-mode="streets"><i class="sw-streets"></i>Dark map</button>
+        <button data-mode="light"><i class="sw-light"></i>Day map</button>
+        <div class="hl">
+          <label class="sw"><input type="checkbox" id="hl-glow"> Glow</label>
+          <label class="sw"><input type="checkbox" id="hl-bounds"> Boundaries</label>
+          <label class="sw"><input type="checkbox" id="hl-labels"> Names</label>
+        </div>
+      </div>
+      <button id="layers-btn" class="layers-btn" title="Map style" aria-label="Map style"><svg viewBox="0 0 24 24" width="16" height="16"><path d="m12 3 9 5-9 5-9-5z M3 13l9 5 9-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></button>
+    </div>
+    <button id="ctl-locate" title="Show my location" aria-label="Show my location"><svg viewBox="0 0 24 24" width="18" height="18"><circle cx="12" cy="12" r="3.2" fill="currentColor"/><circle cx="12" cy="12" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3" stroke="currentColor" stroke-width="1.8"/></svg></button>
+    <button id="ctl-home" title="Show the whole city" aria-label="Show the whole city"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M4 10.5 12 4l8 6.5V20h-5.5v-5.5h-5V20H4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></button>
+    <button id="ctl-tilt" title="Switch between flat and 3D" aria-label="Switch between flat and 3D">2D</button>
+    <div class="zoom">
+      <button id="ctl-in" title="Zoom in" aria-label="Zoom in">+</button>
+      <button id="ctl-out" title="Zoom out" aria-label="Zoom out">−</button>
+    </div>
+  </div>
+
+  <div class="modal" id="onboard" hidden>
+    <div class="sheet">
+      <div class="steps" id="ob-steps"></div>
+      <div class="ob-body" id="ob-body"></div>
+      <div class="row-between"><button class="linkbtn" id="ob-skip">Skip</button><span class="row-gap"><button class="ghost" id="ob-back">Back</button><button class="primary" id="ob-next">Next</button></span></div>
+    </div>
+  </div>
+
+  <div class="modal" id="paste" hidden>
+    <div class="sheet">
+      <h3>Add societies to my list</h3>
+      <p class="fine">Paste names, one per line or separated by commas. We match each to the closest society.</p>
+      <textarea id="paste-text" rows="7" placeholder="Prestige Shantiniketan&#10;Sobha Royal Pavilion&#10;Brigade Gateway"></textarea>
+      <div class="fine" id="paste-result"></div>
+      <div class="row-between"><button class="linkbtn" id="paste-clear">Clear my list</button><span class="row-gap"><button class="ghost" id="paste-cancel">Close</button><button class="primary" id="paste-add">Add to my list</button></span></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" hidden></div>
+  <div class="note" id="note"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

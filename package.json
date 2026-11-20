@@ -1,0 +1,18 @@
+{
+  "name": "flatfinder",
+  "version": "0.1.0",
+  "description": "Find housing societies by the smallest bedroom you can live with. CLI for flat-finder.pages.dev",
+  "type": "module",
+  "workspaces": ["web"],
+  "scripts": {
+    "dev": "npm run dev --workspace=flat-finder-web",
+    "build": "npm run build --workspace=flat-finder-web",
+    "preview": "npm run preview --workspace=flat-finder-web",
+    "lint": "node --check web/src/main.js && node --check web/src/map.js && node --check web/src/filters.js && node --check web/src/feed.js && node --check web/src/search.js",
+    "test": "npm run test --workspace=flat-finder-web"
+  },
+  "bin": { "flatfinder": "cli/flatfinder.mjs" },
+  "files": ["cli", "web/src/filters.js"],
+  "license": "MIT",
+  "repository": "github:kairothq/flat-finder"
+}

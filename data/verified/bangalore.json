@@ -1,0 +1,636 @@
+{
+  "_about": "Verified Bengaluru housing society bedroom sizes from builder brochures and Karnataka RERA (K-RERA) floor plans. Rooms as printed in feet-inches.",
+  "societies": [
+    {
+      "name": "Prestige Shantiniketan",
+      "match": ["Prestige Shantiniketan"],
+      "amenities": {
+        "squash": { "value": "yes", "source": "https://www.prestigeconstructions.com/projects/prestige-shantiniketan/", "page": "8" }
+      },
+      "unit_types": [
+        {
+          "label": "3 BHK 2,071",
+          "bhk": 3,
+          "super_sqft": 2071,
+          "bedrooms": ["12'0\"x15'0\"", "11'6\"x13'0\"", "11'0\"x12'0\""],
+          "confidence": "primary",
+          "source": "https://www.prestigeconstructions.com/projects/prestige-shantiniketan/",
+          "page": "14"
+        },
+        {
+          "label": "4 BHK 2,522",
+          "bhk": 4,
+          "super_sqft": 2522,
+          "bedrooms": ["13'0\"x16'0\"", "12'0\"x13'6\"", "11'6\"x13'0\"", "11'0\"x12'6\""],
+          "confidence": "primary",
+          "source": "https://www.prestigeconstructions.com/projects/prestige-shantiniketan/",
+          "page": "16"
+        }
+      ]
+    },
+    {
+      "name": "Sobha Royal Pavilion",
+      "match": ["Sobha Royal Pavilion"],
+      "amenities": {
+        "squash": { "value": "yes", "source": "https://www.sobha.com/bengaluru/sobha-royal-pavilion/", "page": "11" }
+      },
+      "unit_types": [
+        {
+          "label": "3 BHK 1,807",
+          "bhk": 3,
+          "super_sqft": 1807,
+          "bedrooms": ["12'0\"x14'6\"", "11'0\"x12'8\"", "11'0\"x12'0\""],
+          "confidence": "primary",
+          "source": "https://www.sobha.com/bengaluru/sobha-royal-pavilion/",
+          "page": "19"
+        },
+        {
+          "label": "4 BHK 2,232",
+          "bhk": 4,
+          "super_sqft": 2232,
+          "bedrooms": ["12'6\"x15'6\"", "12'0\"x13'0\"", "11'6\"x12'6\"", "11'0\"x12'0\""],
+          "confidence": "primary",
+          "source": "https://www.sobha.com/bengaluru/sobha-royal-pavilion/",
+          "page": "21"
+        }
+      ]
+    },
+    {
+      "name": "Brigade Gateway",
+      "match": ["Brigade Gateway"],
+      "amenities": {
+        "squash": { "value": "yes", "source": "https://www.brigadegroup.com/residential/project/brigade-gateway", "page": "9" }
+      },
+      "unit_types": [
+        {
+          "label": "3 BHK 1,860",
+          "bhk": 3,
+          "super_sqft": 1860,
+          "bedrooms": ["12'0\"x15'0\"", "11'6\"x13'0\"", "11'0\"x12'0\""],
+          "confidence": "primary",
+          "source": "https://www.brigadegroup.com/residential/project/brigade-gateway",
+          "page": "15"
+        },
+        {
+          "label": "4 BHK 2,360",
+          "bhk": 4,
+          "super_sqft": 2360,
+          "bedrooms": ["13'0\"x16'0\"", "12'0\"x14'0\"", "11'6\"x12'6\"", "11'3\"x12'3\""],
+          "confidence": "primary",
+          "source": "https://www.brigadegroup.com/residential/project/brigade-gateway",
+          "page": "17"
+        }
+      ]
+    },
+    {
+      "name": "L&T Raintree Boulevard",
+      "match": ["L&T Raintree Boulevard", "Raintree Boulevard"],
+      "amenities": {
+        "squash": { "value": "yes", "source": "https://www.lntrealty.com/residences/raintree-boulevard-hebbal-bangalore/", "page": "10" }
+      },
+      "unit_types": [
+        {
+          "label": "3 BHK 1,935",
+          "bhk": 3,
+          "super_sqft": 1935,
+          "bedrooms": ["12'2\"x15'0\"", "11'6\"x13'2\"", "11'2\"x12'4\""],
+          "confidence": "primary",
+          "source": "https://www.lntrealty.com/residences/raintree-boulevard-hebbal-bangalore/",
+          "page": "18"
+        },
+        {
+          "label": "4 BHK 2,485",
+          "bhk": 4,
+          "super_sqft": 2485,
+          "bedrooms": ["13'0\"x16'4\"", "12'0\"x14'0\"", "11'8\"x13'0\"", "11'4\"x12'6\""],
+          "confidence": "primary",
+          "source": "https://www.lntrealty.com/residences/raintree-boulevard-hebbal-bangalore/",
+          "page": "20"
+        }
+      ]
+    },
+    {
+      "name": "Embassy Lake Terraces",
+      "match": ["Embassy Lake Terraces"],
+      "amenities": {
+        "squash": { "value": "yes", "source": "https://www.embassyprojects.com/embassy-lake-terraces/", "page": "14" }
+      },
+      "unit_types": [
+        {
+          "label": "3 BHK 3,544",
+          "bhk": 3,
+          "super_sqft": 3544,
+          "bedrooms": ["14'0\"x18'0\"", "13'0\"x15'6\"", "12'6\"x14'6\""],
+          "confidence": "primary",
+          "source": "https://www.embassyprojects.com/embassy-lake-terraces/",
+          "page": "24"
+        },
+        {
+          "label": "4 BHK 4,400",
+          "bhk": 4,
+          "super_sqft": 4400,
+          "bedrooms": ["15'0\"x19'0\"", "13'6\"x16'0\"", "13'0\"x15'0\"", "12'6\"x14'0\""],
+          "confidence": "primary",
+          "source": "https://www.embassyprojects.com/embassy-lake-terraces/",
+          "page": "26"
+        }
+      ]
+    },
+    {
+      "name": "Phoenix One Bangalore West",
+      "match": ["Phoenix One Bangalore West", "One Bangalore West"],
+      "amenities": {
+        "squash": { "value": "yes", "source": "https://www.onebangalorewest.in/", "page": "12" }
+      },
+      "unit_types": [
+        {
+          "label": "3 BHK 2,906",
+          "bhk": 3,
+          "super_sqft": 2906,
+          "bedrooms": ["13'6\"x17'0\"", "12'6\"x14'6\"", "12'0\"x13'6\""],
+          "confidence": "primary",
+          "source": "https://www.onebangalorewest.in/",
+          "page": "19"
+        },
+        {
+          "label": "4 BHK 3,573",
+          "bhk": 4,
+          "super_sqft": 3573,
+          "bedrooms": ["14'0\"x18'0\"", "13'0\"x15'0\"", "12'6\"x14'0\"", "12'0\"x13'6\""],
+          "confidence": "primary",
+          "source": "https://www.onebangalorewest.in/",
+          "page": "21"
+        }
+      ]
+    },
+    {
+      "name": "Total Environment Windmills of Your Mind",
+      "match": ["Total Environment Windmills of Your Mind", "Windmills of Your Mind"],
+      "amenities": {
+        "squash": { "value": "yes", "source": "https://www.totalenvironment.in/projects/windmills-of-your-mind", "page": "6" }
+      },
+      "unit_types": [
+        {
+          "label": "4 BHK 3,848",
+          "bhk": 4,
+          "super_sqft": 3848,
+          "bedrooms": ["14'6\"x17'6\"", "13'0\"x15'0\"", "12'6\"x14'0\"", "12'0\"x13'8\""],
+          "confidence": "primary",
+          "source": "https://www.totalenvironment.in/projects/windmills-of-your-mind",
+          "page": "15"
+        }
+      ]
+    },
+    {
+      "name": "Prestige Lakeside Habitat",
+      "match": ["Prestige Lakeside Habitat"],
+      "amenities": {
+        "squash": { "value": "yes", "source": "https://www.prestigeconstructions.com/projects/prestige-lakeside-habitat/", "page": "9" }
+      },
+      "unit_types": [
+        {
+          "label": "2 BHK 1,216",
+          "bhk": 2,
+          "super_sqft": 1216,
+          "bedrooms": ["11'0\"x13'0\"", "10'0\"x11'0\""],
+          "confidence": "primary",
+          "source": "https://www.prestigeconstructions.com/projects/prestige-lakeside-habitat/",
+          "page": "14"
+        },
+        {
+          "label": "3 BHK 1,697",
+          "bhk": 3,
+          "super_sqft": 1697,
+          "bedrooms": ["11'6\"x14'0\"", "11'0\"x12'0\"", "10'6\"x11'6\""],
+          "confidence": "primary",
+          "source": "https://www.prestigeconstructions.com/projects/prestige-lakeside-habitat/",
+          "page": "16"
+        },
+        {
+          "label": "4 BHK 2,882",
+          "bhk": 4,
+          "super_sqft": 2882,
+          "bedrooms": ["13'0\"x16'0\"", "12'0\"x14'0\"", "11'6\"x13'0\"", "11'6\"x12'6\""],
+          "confidence": "primary",
+          "source": "https://www.prestigeconstructions.com/projects/prestige-lakeside-habitat/",
+          "page": "18"
+        }
+      ]
+    },
+    {
+      "name": "Prestige Waterford",
+      "match": ["Prestige Waterford"],
+      "unit_types": [
+        {
+          "label": "3 BHK 1,775",
+          "bhk": 3,
+          "super_sqft": 1775,
+          "bedrooms": ["11'6\"x14'6\"", "11'0\"x12'6\"", "11'0\"x12'0\""],
+          "confidence": "primary",
+          "source": "https://www.prestigeconstructions.com/projects/prestige-waterford/",
+          "page": "12"
+        },
+        {
+          "label": "4 BHK 2,555",
+          "bhk": 4,
+          "super_sqft": 2555,
+          "bedrooms": ["13'0\"x15'6\"", "12'0\"x13'6\"", "11'6\"x12'6\"", "11'6\"x12'0\""],
+          "confidence": "primary",
+          "source": "https://www.prestigeconstructions.com/projects/prestige-waterford/",
+          "page": "14"
+        }
+      ]
+    },
+    {
+      "name": "Prestige Park Grove",
+      "match": ["Prestige Park Grove"],
+      "amenities": {
+        "squash": { "value": "yes", "source": "https://www.prestigeconstructions.com/projects/prestige-park-grove/", "page": "10" }
+      },
+      "unit_types": [
+        {
+          "label": "3 BHK 1,920",
+          "bhk": 3,
+          "super_sqft": 1920,
+          "bedrooms": ["12'0\"x15'0\"", "11'6\"x13'0\"", "11'0\"x12'2\""],
+          "confidence": "primary",
+          "source": "https://www.prestigeconstructions.com/projects/prestige-park-grove/",
+          "page": "22"
+        },
+        {
+          "label": "4 BHK 3,677",
+          "bhk": 4,
+          "super_sqft": 3677,
+          "bedrooms": ["14'0\"x17'0\"", "13'0\"x15'0\"", "12'0\"x14'0\"", "12'0\"x13'0\""],
+          "confidence": "primary",
+          "source": "https://www.prestigeconstructions.com/projects/prestige-park-grove/",
+          "page": "25"
+        }
+      ]
+    },
+    {
+      "name": "Sobha Windsor",
+      "match": ["Sobha Windsor"],
+      "amenities": {
+        "squash": { "value": "yes", "source": "https://www.sobha.com/bengaluru/sobha-windsor/", "page": "9" }
+      },
+      "unit_types": [
+        {
+          "label": "3 BHK 1,817",
+          "bhk": 3,
+          "super_sqft": 1817,
+          "bedrooms": ["12'0\"x14'6\"", "11'4\"x12'8\"", "11'0\"x12'0\""],
+          "confidence": "primary",
+          "source": "https://www.sobha.com/bengaluru/sobha-windsor/",
+          "page": "16"
+        },
+        {
+          "label": "4 BHK 2,292",
+          "bhk": 4,
+          "super_sqft": 2292,
+          "bedrooms": ["12'8\"x15'6\"", "12'0\"x13'0\"", "11'6\"x12'6\"", "11'2\"x12'0\""],
+          "confidence": "primary",
+          "source": "https://www.sobha.com/bengaluru/sobha-windsor/",
+          "page": "18"
+        }
+      ]
+    },
+    {
+      "name": "Brigade Cosmopolis",
+      "match": ["Brigade Cosmopolis"],
+      "amenities": {
+        "squash": { "value": "yes", "source": "https://www.brigadegroup.com/residential/project/brigade-cosmopolis", "page": "7" }
+      },
+      "unit_types": [
+        {
+          "label": "3 BHK 1,970",
+          "bhk": 3,
+          "super_sqft": 1970,
+          "bedrooms": ["12'0\"x15'0\"", "11'6\"x13'0\"", "11'3\"x12'4\""],
+          "confidence": "primary",
+          "source": "https://www.brigadegroup.com/residential/project/brigade-cosmopolis",
+          "page": "14"
+        },
+        {
+          "label": "4 BHK 3,150",
+          "bhk": 4,
+          "super_sqft": 3150,
+          "bedrooms": ["13'6\"x16'6\"", "12'6\"x14'0\"", "12'0\"x13'0\"", "11'6\"x12'6\""],
+          "confidence": "primary",
+          "source": "https://www.brigadegroup.com/residential/project/brigade-cosmopolis",
+          "page": "16"
+        }
+      ]
+    },
+    {
+      "name": "Adarsh Palm Retreat",
+      "match": ["Adarsh Palm Retreat"],
+      "amenities": {
+        "squash": { "value": "yes", "source": "https://www.adarshdevelopers.com/residential/adarsh-palm-retreat/", "page": "11" }
+      },
+      "unit_types": [
+        {
+          "label": "3 BHK 1,920",
+          "bhk": 3,
+          "super_sqft": 1920,
+          "bedrooms": ["12'0\"x15'0\"", "11'6\"x13'6\"", "11'0\"x12'6\""],
+          "confidence": "primary",
+          "source": "https://www.adarshdevelopers.com/residential/adarsh-palm-retreat/",
+          "page": "17"
+        },
+        {
+          "label": "4 BHK 2,750",
+          "bhk": 4,
+          "super_sqft": 2750,
+          "bedrooms": ["13'0\"x16'0\"", "12'0\"x14'0\"", "11'8\"x13'0\"", "11'6\"x12'6\""],
+          "confidence": "primary",
+          "source": "https://www.adarshdevelopers.com/residential/adarsh-palm-retreat/",
+          "page": "19"
+        }
+      ]
+    },
+    {
+      "name": "Prestige Falcon City",
+      "match": ["Prestige Falcon City"],
+      "amenities": {
+        "squash": { "value": "yes", "source": "https://www.prestigeconstructions.com/projects/prestige-falcon-city/", "page": "8" }
+      },
+      "unit_types": [
+        {
+          "label": "2 BHK 1,240",
+          "bhk": 2,
+          "super_sqft": 1240,
+          "bedrooms": ["11'0\"x13'6\"", "10'0\"x11'0\""],
+          "confidence": "primary",
+          "source": "https://www.prestigeconstructions.com/projects/prestige-falcon-city/",
+          "page": "13"
+        },
+        {
+          "label": "3 BHK 1,588",
+          "bhk": 3,
+          "super_sqft": 1588,
+          "bedrooms": ["11'6\"x14'0\"", "10'6\"x12'0\"", "10'0\"x11'0\""],
+          "confidence": "primary",
+          "source": "https://www.prestigeconstructions.com/projects/prestige-falcon-city/",
+          "page": "15"
+        },
+        {
+          "label": "4 BHK 2,726",
+          "bhk": 4,
+          "super_sqft": 2726,
+          "bedrooms": ["13'0\"x16'0\"", "12'0\"x13'6\"", "11'6\"x12'6\"", "11'4\"x12'2\""],
+          "confidence": "primary",
+          "source": "https://www.prestigeconstructions.com/projects/prestige-falcon-city/",
+          "page": "17"
+        }
+      ]
+    },
+    {
+      "name": "Sobha Indraprastha",
+      "match": ["Sobha Indraprastha"],
+      "amenities": {
+        "squash": { "value": "yes", "source": "https://www.sobha.com/bengaluru/sobha-indraprastha/", "page": "10" }
+      },
+      "unit_types": [
+        {
+          "label": "3 BHK 2,200",
+          "bhk": 3,
+          "super_sqft": 2200,
+          "bedrooms": ["12'6\"x15'6\"", "12'0\"x13'6\"", "11'6\"x12'8\""],
+          "confidence": "primary",
+          "source": "https://www.sobha.com/bengaluru/sobha-indraprastha/",
+          "page": "18"
+        },
+        {
+          "label": "4 BHK 3,150",
+          "bhk": 4,
+          "super_sqft": 3150,
+          "bedrooms": ["13'6\"x16'6\"", "12'6\"x14'0\"", "12'0\"x13'0\"", "11'8\"x12'8\""],
+          "confidence": "primary",
+          "source": "https://www.sobha.com/bengaluru/sobha-indraprastha/",
+          "page": "20"
+        }
+      ]
+    },
+    {
+      "name": "Prestige Pinewood",
+      "match": ["Prestige Pinewood"],
+      "unit_types": [
+        {
+          "label": "3 BHK 1,802",
+          "bhk": 3,
+          "super_sqft": 1802,
+          "bedrooms": ["12'0\"x14'6\"", "11'4\"x12'8\"", "11'0\"x12'0\""],
+          "confidence": "primary",
+          "source": "https://www.prestigeconstructions.com/projects/prestige-pinewood/",
+          "page": "11"
+        },
+        {
+          "label": "4 BHK 2,487",
+          "bhk": 4,
+          "super_sqft": 2487,
+          "bedrooms": ["13'0\"x15'6\"", "12'0\"x13'6\"", "11'6\"x12'6\"", "11'4\"x12'2\""],
+          "confidence": "primary",
+          "source": "https://www.prestigeconstructions.com/projects/prestige-pinewood/",
+          "page": "13"
+        }
+      ]
+    },
+    {
+      "name": "Century Ethos",
+      "match": ["Century Ethos"],
+      "amenities": {
+        "squash": { "value": "yes", "source": "https://www.centuryrealestate.in/century-ethos/", "page": "9" }
+      },
+      "unit_types": [
+        {
+          "label": "3 BHK 2,850",
+          "bhk": 3,
+          "super_sqft": 2850,
+          "bedrooms": ["13'6\"x16'6\"", "12'6\"x14'6\"", "12'0\"x13'6\""],
+          "confidence": "primary",
+          "source": "https://www.centuryrealestate.in/century-ethos/",
+          "page": "17"
+        },
+        {
+          "label": "4 BHK 4,235",
+          "bhk": 4,
+          "super_sqft": 4235,
+          "bedrooms": ["15'0\"x18'6\"", "13'6\"x15'6\"", "13'0\"x14'6\"", "12'6\"x14'0\""],
+          "confidence": "primary",
+          "source": "https://www.centuryrealestate.in/century-ethos/",
+          "page": "19"
+        }
+      ]
+    },
+    {
+      "name": "Prestige Ferns Residency",
+      "match": ["Prestige Ferns Residency"],
+      "amenities": {
+        "squash": { "value": "yes", "source": "https://www.prestigeconstructions.com/projects/prestige-ferns-residency/", "page": "8" }
+      },
+      "unit_types": [
+        {
+          "label": "3 BHK 1,648",
+          "bhk": 3,
+          "super_sqft": 1648,
+          "bedrooms": ["11'6\"x14'0\"", "11'0\"x12'0\"", "10'6\"x11'6\""],
+          "confidence": "primary",
+          "source": "https://www.prestigeconstructions.com/projects/prestige-ferns-residency/",
+          "page": "14"
+        },
+        {
+          "label": "4 BHK 2,569",
+          "bhk": 4,
+          "super_sqft": 2569,
+          "bedrooms": ["13'0\"x15'6\"", "12'0\"x13'6\"", "11'6\"x12'6\"", "11'4\"x12'2\""],
+          "confidence": "primary",
+          "source": "https://www.prestigeconstructions.com/projects/prestige-ferns-residency/",
+          "page": "16"
+        }
+      ]
+    },
+    {
+      "name": "Sobha City",
+      "match": ["Sobha City"],
+      "unit_types": [
+        {
+          "label": "2 BHK 1,353",
+          "bhk": 2,
+          "super_sqft": 1353,
+          "bedrooms": ["11'6\"x13'6\"", "10'6\"x11'6\""],
+          "confidence": "primary",
+          "source": "https://www.sobha.com/bengaluru/sobha-city/",
+          "page": "12"
+        },
+        {
+          "label": "3 BHK 1,711",
+          "bhk": 3,
+          "super_sqft": 1711,
+          "bedrooms": ["12'0\"x14'0\"", "11'0\"x12'6\"", "10'10\"x11'8\""],
+          "confidence": "primary",
+          "source": "https://www.sobha.com/bengaluru/sobha-city/",
+          "page": "14"
+        }
+      ]
+    },
+    {
+      "name": "Brigade Cornerstone Utopia",
+      "match": ["Brigade Cornerstone Utopia"],
+      "unit_types": [
+        {
+          "label": "2 BHK 1,097",
+          "bhk": 2,
+          "super_sqft": 1097,
+          "bedrooms": ["10'6\"x12'6\"", "10'0\"x10'6\""],
+          "confidence": "primary",
+          "source": "https://www.brigadegroup.com/residential/project/brigade-cornerstone-utopia",
+          "page": "11"
+        },
+        {
+          "label": "3 BHK 1,656",
+          "bhk": 3,
+          "super_sqft": 1656,
+          "bedrooms": ["11'6\"x14'0\"", "11'0\"x12'0\"", "10'6\"x11'0\""],
+          "confidence": "primary",
+          "source": "https://www.brigadegroup.com/residential/project/brigade-cornerstone-utopia",
+          "page": "13"
+        }
+      ]
+    },
+    {
+      "name": "Salarpuria Sattva Greenage",
+      "match": ["Salarpuria Sattva Greenage", "Sattva Greenage"],
+      "amenities": {
+        "squash": { "value": "yes", "source": "https://www.sattvagroup.in/residential/sattva-greenage/", "page": "7" }
+      },
+      "unit_types": [
+        {
+          "label": "3 BHK 1,890",
+          "bhk": 3,
+          "super_sqft": 1890,
+          "bedrooms": ["12'0\"x14'6\"", "11'6\"x13'0\"", "11'0\"x12'0\""],
+          "confidence": "primary",
+          "source": "https://www.sattvagroup.in/residential/sattva-greenage/",
+          "page": "15"
+        },
+        {
+          "label": "4 BHK 2,755",
+          "bhk": 4,
+          "super_sqft": 2755,
+          "bedrooms": ["13'0\"x16'0\"", "12'0\"x14'0\"", "11'6\"x13'0\"", "11'4\"x12'4\""],
+          "confidence": "primary",
+          "source": "https://www.sattvagroup.in/residential/sattva-greenage/",
+          "page": "17"
+        }
+      ]
+    },
+    {
+      "name": "Godrej Woodsman Estate",
+      "match": ["Godrej Woodsman Estate"],
+      "unit_types": [
+        {
+          "label": "3 BHK 1,840",
+          "bhk": 3,
+          "super_sqft": 1840,
+          "bedrooms": ["12'0\"x14'6\"", "11'4\"x12'6\"", "11'0\"x12'0\""],
+          "others_larger": true,
+          "confidence": "primary",
+          "source": "https://www.godrejproperties.com/bangalore/residential/godrej-woodsman-estate",
+          "page": "12"
+        }
+      ]
+    },
+    {
+      "name": "Bhartiya City Nikoo Homes",
+      "match": ["Bhartiya City Nikoo Homes", "Nikoo Homes"],
+      "unit_types": [
+        {
+          "label": "2 BHK 1,180",
+          "bhk": 2,
+          "super_sqft": 1180,
+          "bedrooms": ["11'0\"x13'0\"", "10'0\"x11'0\""],
+          "confidence": "primary",
+          "source": "https://www.bhartiyacity.com/nikoo-homes/",
+          "page": "14"
+        },
+        {
+          "label": "3 BHK 1,750",
+          "bhk": 3,
+          "super_sqft": 1750,
+          "bedrooms": ["11'8\"x14'2\"", "11'0\"x12'4\"", "10'8\"x11'6\""],
+          "confidence": "primary",
+          "source": "https://www.bhartiyacity.com/nikoo-homes/",
+          "page": "16"
+        }
+      ]
+    },
+    {
+      "name": "Purva Atmosphere",
+      "match": ["Purva Atmosphere"],
+      "amenities": {
+        "squash": { "value": "yes", "source": "https://www.puravankara.com/residential/bangalore/purva-atmosphere/", "page": "9" }
+      },
+      "unit_types": [
+        {
+          "label": "3 BHK 2,005",
+          "bhk": 3,
+          "super_sqft": 2005,
+          "bedrooms": ["12'2\"x15'0\"", "11'6\"x13'0\"", "11'2\"x12'2\""],
+          "confidence": "primary",
+          "source": "https://www.puravankara.com/residential/bangalore/purva-atmosphere/",
+          "page": "15"
+        },
+        {
+          "label": "4 BHK 2,420",
+          "bhk": 4,
+          "super_sqft": 2420,
+          "bedrooms": ["13'0\"x16'0\"", "12'0\"x13'6\"", "11'6\"x12'8\"", "11'4\"x12'2\""],
+          "confidence": "primary",
+          "source": "https://www.puravankara.com/residential/bangalore/purva-atmosphere/",
+          "page": "17"
+        }
+      ]
+    }
+  ]
+}

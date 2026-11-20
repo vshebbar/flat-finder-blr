@@ -1,0 +1,509 @@
+{
+  "_about": "Hand-verified research (Divy, Nov 2026). Rooms as printed: feet-inches like 12'10\"x16'4\" or millimetres like 3350x3750. 'others_larger': the plan states the unlisted bedrooms (e.g. master) are larger than those listed.",
+  "societies": [
+    {
+      "name": "Pioneer Araya",
+      "match": [
+        "Pioneer Araya",
+        "Araya"
+      ],
+      "amenities": {
+        "squash": {
+          "value": "yes",
+          "source": "https://pioneerurban.in/img/araya/Araya%20Brochure.pdf",
+          "page": "12"
+        }
+      },
+      "unit_types": [
+        {
+          "label": "3 BHK 3,498",
+          "bhk": 3,
+          "super_sqft": 3498,
+          "bedrooms": [
+            "12'10\"x16'4\"",
+            "12'2\"x14'11\""
+          ],
+          "others_larger": true,
+          "confidence": "primary",
+          "source": "https://pioneerurban.in/img/araya/Araya%20Brochure.pdf",
+          "page": "17"
+        },
+        {
+          "label": "3 BHK + terrace 3,858",
+          "bhk": 3,
+          "super_sqft": 3858,
+          "bedrooms": [
+            "12'10\"x16'4\"",
+            "12'2\"x14'11\""
+          ],
+          "others_larger": true,
+          "confidence": "primary",
+          "source": "https://pioneerurban.in/img/araya/Araya%20Brochure.pdf",
+          "page": "17"
+        },
+        {
+          "label": "4 BHK 4,279",
+          "bhk": 4,
+          "super_sqft": 4279,
+          "bedrooms": [
+            "12'10\"x16'4\"",
+            "12'2\"x14'11\"",
+            "12'2\"x14'11\"",
+            "16'0\"x19'5\""
+          ],
+          "confidence": "primary",
+          "source": "https://pioneerurban.in/img/araya/Araya%20Brochure.pdf",
+          "page": "18"
+        }
+      ],
+      "sector": "62"
+    },
+    {
+      "name": "Pioneer Urban Presidia",
+      "match": [
+        "Pioneer Presidia",
+        "Presidia"
+      ],
+      "amenities": {
+        "squash": {
+          "value": "yes",
+          "source": "https://jll-global-gdim-res.cloudinary.com/raw/upload/IN/Horizon/Resi/PROD/JLL_Gurgaon_Pioneer%20Urban%20Presidia_16842_BRC_1.pdf",
+          "page": "11"
+        }
+      },
+      "unit_types": [
+        {
+          "label": "4 BHK + family 3,677",
+          "bhk": 4,
+          "super_sqft": 3677,
+          "bedrooms": [
+            "14'7\"x16'6\"",
+            "11'7\"x16'0\"",
+            "11'10\"x14'0\"",
+            "11'11\"x15'2\""
+          ],
+          "confidence": "primary",
+          "source": "https://jll-global-gdim-res.cloudinary.com/raw/upload/IN/Horizon/Resi/PROD/JLL_Gurgaon_Pioneer%20Urban%20Presidia_16842_BRC_1.pdf",
+          "page": "12"
+        },
+        {
+          "label": "4 BHK + family 4,063",
+          "bhk": 4,
+          "super_sqft": 4063,
+          "bedrooms": [
+            "14'7\"x16'6\"",
+            "11'7\"x16'0\"",
+            "11'10\"x14'0\"",
+            "11'11\"x15'2\""
+          ],
+          "confidence": "primary",
+          "source": "https://jll-global-gdim-res.cloudinary.com/raw/upload/IN/Horizon/Resi/PROD/JLL_Gurgaon_Pioneer%20Urban%20Presidia_16842_BRC_1.pdf",
+          "page": "12"
+        },
+        {
+          "label": "5 BHK + family 4,111",
+          "bhk": 5,
+          "super_sqft": 4111,
+          "bedrooms": [
+            "15'6\"x15'10\"",
+            "12'3\"x15'6\"",
+            "11'6\"x17'2\"",
+            "12'4\"x15'3\"",
+            "12'6\"x17'6\""
+          ],
+          "confidence": "primary",
+          "source": "https://jll-global-gdim-res.cloudinary.com/raw/upload/IN/Horizon/Resi/PROD/JLL_Gurgaon_Pioneer%20Urban%20Presidia_16842_BRC_1.pdf",
+          "page": "13"
+        }
+      ],
+      "sector": null
+    },
+    {
+      "name": "Conscient Heritage One",
+      "match": [
+        "Heritage One"
+      ],
+      "amenities": {
+        "squash": {
+          "value": "yes",
+          "source": "https://www.slideshare.net/slideshow/heritage-one/51990823",
+          "page": "slide 15"
+        }
+      },
+      "note": "A resident measured the smallest bedroom at 11'3\" x 12'3\" (matches brochure BR2). The brochure prints 11'0\" for two other rooms.",
+      "unit_types": [
+        {
+          "label": "3 BHK 1,890",
+          "bhk": 3,
+          "super_sqft": 1890,
+          "bedrooms": [
+            "15'6\"x11'0\"",
+            "11'3\"x12'3\"",
+            "11'0\"x13'0\""
+          ],
+          "confidence": "primary",
+          "source": "https://www.slideshare.net/slideshow/heritage-one/51990823",
+          "page": "slide 18"
+        },
+        {
+          "label": "4 BHK 2,390",
+          "bhk": 4,
+          "super_sqft": 2390,
+          "bedrooms": [
+            "11'0\"x14'5\"",
+            "12'0\"x11'0\"",
+            "12'6\"x11'0\"",
+            "12'6\"x11'0\""
+          ],
+          "confidence": "primary",
+          "source": "https://www.slideshare.net/slideshow/heritage-one/51990823",
+          "page": "slide 18"
+        }
+      ],
+      "sector": "62"
+    },
+    {
+      "name": "Emaar Amaris",
+      "match": [
+        "Emaar Amaris",
+        "Amaris"
+      ],
+      "amenities": {
+        "squash": {
+          "value": "yes",
+          "source": "https://haryanarera.gov.in/project/view_uploaded_Document_open/a2fe902feaNTA4ODE=",
+          "page": "5"
+        }
+      },
+      "unit_types": [
+        {
+          "label": "2 BHK A/B",
+          "bhk": 2,
+          "carpet_sqft": 1053,
+          "bedrooms": [
+            "3650x4825",
+            "3350x3750"
+          ],
+          "confidence": "primary",
+          "source": "https://haryanarera.gov.in/project/view_uploaded_Document_open/a2fe902feaNTA4ODE=",
+          "page": "20"
+        },
+        {
+          "label": "3 BHK A/B",
+          "bhk": 3,
+          "carpet_sqft": 1264,
+          "bedrooms": [
+            "3650x4825",
+            "3375x4275",
+            "3350x3750"
+          ],
+          "confidence": "primary",
+          "source": "https://haryanarera.gov.in/project/view_uploaded_Document_open/a2fe902feaNTA4ODE=",
+          "page": "21"
+        },
+        {
+          "label": "3 BHK C/D",
+          "bhk": 3,
+          "carpet_sqft": 1451,
+          "bedrooms": [
+            "4575x3750",
+            "3350x4275",
+            "3350x4275"
+          ],
+          "confidence": "primary",
+          "source": "https://haryanarera.gov.in/project/view_uploaded_Document_open/a2fe902feaNTA4ODE=",
+          "page": "22"
+        },
+        {
+          "label": "3 BHK E/F",
+          "bhk": 3,
+          "carpet_sqft": 1640,
+          "bedrooms": [
+            "5575x3750",
+            "3350x4975",
+            "3350x4975"
+          ],
+          "confidence": "primary",
+          "source": "https://haryanarera.gov.in/project/view_uploaded_Document_open/a2fe902feaNTA4ODE=",
+          "page": "23"
+        },
+        {
+          "label": "4 BHK D/E",
+          "bhk": 4,
+          "carpet_sqft": 1830,
+          "bedrooms": [
+            "3350x4975",
+            "3350x4975",
+            "3450x3650"
+          ],
+          "others_larger": true,
+          "confidence": "primary",
+          "source": "https://haryanarera.gov.in/project/view_uploaded_Document_open/a2fe902feaNTA4ODE=",
+          "page": "25"
+        }
+      ],
+      "sector": "62"
+    },
+    {
+      "name": "M3M Heights",
+      "match": [
+        "M3M Heights",
+        "M3M 65th Avenue"
+      ],
+      "amenities": {
+        "squash": {
+          "value": "yes",
+          "source": "https://jll-global-gdim-res.cloudinary.com/raw/upload/IN/Horizon/Resi/PROD/JLL_Gurgaon_M3M%20Heights_15841_BRC_1.pdf",
+          "page": "21"
+        }
+      },
+      "unit_types": [
+        {
+          "label": "Type 1 2 BHK 1,261",
+          "bhk": 2,
+          "super_sqft": 1261,
+          "bedrooms": [
+            "10'0\"x15'0\"",
+            "10'0\"x12'6\""
+          ],
+          "confidence": "primary",
+          "source": "https://jll-global-gdim-res.cloudinary.com/raw/upload/IN/Horizon/Resi/PROD/JLL_Gurgaon_M3M%20Heights_15841_BRC_1.pdf",
+          "page": "26"
+        },
+        {
+          "label": "Type 3 2 BHK 1,358",
+          "bhk": 2,
+          "super_sqft": 1358,
+          "bedrooms": [
+            "13'0\"x10'10\"",
+            "10'10\"x11'10\""
+          ],
+          "confidence": "primary",
+          "source": "https://jll-global-gdim-res.cloudinary.com/raw/upload/IN/Horizon/Resi/PROD/JLL_Gurgaon_M3M%20Heights_15841_BRC_1.pdf",
+          "page": "39"
+        },
+        {
+          "label": "Type 6 3 BHK 1,828",
+          "bhk": 3,
+          "super_sqft": 1828,
+          "bedrooms": [
+            "12'6\"x13'3\"",
+            "12'6\"x11'0\"",
+            "13'0\"x10'10\""
+          ],
+          "confidence": "primary",
+          "source": "https://jll-global-gdim-res.cloudinary.com/raw/upload/IN/Horizon/Resi/PROD/JLL_Gurgaon_M3M%20Heights_15841_BRC_1.pdf",
+          "page": "34"
+        },
+        {
+          "label": "Type 7 3 BHK 1,990",
+          "bhk": 3,
+          "super_sqft": 1990,
+          "bedrooms": [
+            "12'2\"x15'1\"",
+            "12'0\"x10'10\"",
+            "12'4\"x11'2\""
+          ],
+          "confidence": "primary",
+          "source": "https://jll-global-gdim-res.cloudinary.com/raw/upload/IN/Horizon/Resi/PROD/JLL_Gurgaon_M3M%20Heights_15841_BRC_1.pdf",
+          "page": "36"
+        }
+      ],
+      "sector": "65"
+    },
+    {
+      "name": "M3M Latitude",
+      "match": [
+        "M3M Latitude",
+        "M3M Lattitude"
+      ],
+      "unit_types": [
+        {
+          "label": "3 BHK + SQ 2,380",
+          "bhk": 3,
+          "super_sqft": 2380,
+          "bedrooms": [
+            "16'0\"x11'1\"",
+            "11'0\"x13'9\"",
+            "14'0\"x10'6\""
+          ],
+          "confidence": "primary",
+          "source": "https://www.slideshare.net/slideshow/brochure-m3mlatitude/42786793",
+          "page": "slide 24"
+        },
+        {
+          "label": "4 BHK + SQ 2,875",
+          "bhk": 4,
+          "super_sqft": 2875,
+          "bedrooms": [
+            "16'10\"x12'0\"",
+            "11'0\"x14'0\"",
+            "11'0\"x12'0\"",
+            "14'0\"x11'0\""
+          ],
+          "confidence": "primary",
+          "source": "https://www.slideshare.net/slideshow/brochure-m3mlatitude/42786793",
+          "page": "slide 25"
+        }
+      ],
+      "sector": "65"
+    },
+    {
+      "name": "Conscient Elevate Reserve",
+      "match": [
+        "Elevate Reserve",
+        "Conscient Elevate"
+      ],
+      "unit_types": [
+        {
+          "label": "Tower A 3 BHK",
+          "bhk": 3,
+          "bedrooms": [
+            "3635x4370",
+            "3380x4100",
+            "4830x3550"
+          ],
+          "confidence": "primary",
+          "source": "https://haryanarera.gov.in/project/view_uploaded_Document_open/ce32578618NDE5NDk=",
+          "page": "typical floor"
+        },
+        {
+          "label": "Tower B 4 BHK",
+          "bhk": 4,
+          "bedrooms": [
+            "4610x3900",
+            "3900x3625",
+            "3900x3430",
+            "3900x3350"
+          ],
+          "confidence": "primary",
+          "source": "https://haryanarera.gov.in/project/view_uploaded_Document_open/d88fb58038NDE5NTA=",
+          "page": "typical floor"
+        }
+      ],
+      "sector": "62"
+    },
+    {
+      "name": "Adani Samsara Avasa",
+      "match": [
+        "Samsara Avasa"
+      ],
+      "unit_types": [
+        {
+          "label": "3 BHK (HRERA area diagram)",
+          "bhk": 3,
+          "bedrooms": [
+            "3050x4000",
+            "3300x3990",
+            "3500x3940"
+          ],
+          "confidence": "primary",
+          "source": "https://haryanarera.gov.in/project/view_uploaded_Document_open/88007a2330MzA5OTg=",
+          "page": "L1 floor plan"
+        }
+      ],
+      "sector": "63"
+    },
+    {
+      "name": "M3M Polo Suites",
+      "match": [
+        "M3M Polo Suites",
+        "Polo Suites"
+      ],
+      "amenities": {
+        "squash": {
+          "value": "yes",
+          "source": "https://www.propertybaazi.com/projects/m3m-polo-suites-sector-65-gurugram",
+          "page": "amenities"
+        }
+      },
+      "unit_types": [
+        {
+          "label": "3 BHK 3,980",
+          "bhk": 3,
+          "super_sqft": 3980,
+          "bedrooms": [
+            "3660x4270"
+          ],
+          "smallest_only": true,
+          "confidence": "portal",
+          "source": "https://www.propertybaazi.com/projects/m3m-polo-suites-sector-65-gurugram",
+          "page": "floor plan"
+        }
+      ],
+      "sector": "65"
+    },
+    {
+      "name": "M3M St Andrews Golf Residences",
+      "match": [
+        "M3M St. Andrews",
+        "M3M St Andrews"
+      ],
+      "unit_types": [
+        {
+          "label": "4 BHK 6,171",
+          "bhk": 4,
+          "super_sqft": 6171,
+          "bedrooms": [
+            "11'7\"x16'10\""
+          ],
+          "smallest_only": true,
+          "confidence": "portal",
+          "source": "https://www.propertybaazi.com/projects/m3m-st-andrews-sector-65-gurugram",
+          "page": "floor plan"
+        }
+      ],
+      "sector": "65"
+    },
+    {
+      "name": "Adani Brahma Samsara Vilasa",
+      "match": [
+        "Samsara Vilasa"
+      ],
+      "unit_types": [
+        {
+          "label": "3 BHK",
+          "bhk": 3,
+          "bedrooms": [
+            "12'6\"x13'6\""
+          ],
+          "smallest_only": true,
+          "confidence": "portal",
+          "source": "https://www.propertybaazi.com/projects/adani-brahma-samsara-vilasa-sector-63-gurugram",
+          "page": "floor plan"
+        }
+      ],
+      "sector": "63"
+    },
+    {
+      "name": "M3M Golf Estate",
+      "match": [
+        "M3M Golf Estate",
+        "Golf Estate"
+      ],
+      "amenities": {
+        "squash": {
+          "value": "yes",
+          "source": "https://www.propertybaazi.com/projects/m3m-golfestate-sector-65-gurugram",
+          "page": "amenities"
+        }
+      },
+      "sector": "65"
+    },
+    {
+      "name": "Ireo Skyon",
+      "match": [
+        "Ireo Skyon",
+        "Skyon"
+      ],
+      "amenities": {
+        "squash": {
+          "value": "yes",
+          "source": "https://www.propertybaazi.com/projects/ireo-skyon-sector-60-gurugram",
+          "page": "amenities"
+        }
+      },
+      "sector": "60"
+    }
+  ]
+}

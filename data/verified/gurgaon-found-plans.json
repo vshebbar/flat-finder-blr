@@ -1,0 +1,2987 @@
+{
+ "societies": {
+  "s5393337": {
+   "name": "M3M Crown Phase 1",
+   "plans": [
+    {
+     "url": "https://www.m3mindian.com/m3m-crown/images/3bhk_1895.jpeg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.m3mindian.com/m3m-crown/"
+    },
+    {
+     "url": "https://www.luxuryroof.in/imags/3BHK-1665Sq.ft-Floor-Plan-M3m-Crown-Sector-111-Gurgaon.webp",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.luxuryroof.in/gurgaon/m3m-crown"
+    },
+    {
+     "url": "https://www.m3mproperties.com/floorplan/62827-2670.png",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.m3mproperties.com/residential/gurugram/m3m-crown-sector-111/"
+    },
+    {
+     "url": "https://www.growmaxwealth.com/floorplan/19797025042.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.growmaxwealth.com/residential-project-m3m-crown"
+    }
+   ],
+   "note": "Confirmed: 3BHK+study 1895 sqft plan prints room sizes in ft-in. More BHK plans listed at m3mindian.com/m3m-crown/floor-plan.php"
+  },
+  "s5000594": {
+   "name": "Malibu Town",
+   "plans": [
+    {
+     "url": "https://img.staticmb.com/mbimages/project/2019/02/18/Floor-Plan-27-Malibu-Town-Gurgaon-5000594_577_554.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/malibu-town-floor-plan-sohna-road-gurgaon-pdpid-4d4235303030353934"
+    }
+   ],
+   "note": "Mostly plots and builder floors (township). Magicbricks plan is small, unverified."
+  },
+  "s5072066": {
+   "name": "Mahindra Luminare",
+   "plans": [
+    {
+     "url": "https://www.mahindrahome.com/img/property/floor/orig/luminare-3bhk-unit-plan.webp",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.mahindrahome.com/project/mahindra-luminare/floor-plan/index.html"
+    },
+    {
+     "url": "https://mitahighendrealty.com/wp-content/uploads/2022/05/Mahindra-Luminare-Floor-Plan-3bhk.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://mitahighendrealty.com/property/mahindra-luminare-sector-59/"
+    },
+    {
+     "url": "https://investormart.s3.ap-south-1.amazonaws.com/floorplan/1625-17587949435266-Mahindra-Luminare-Floor-Plan-2009-sqft.webp",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.investormart.co.in/Project-Mahindra-Luminare.php"
+    }
+   ],
+   "note": "Confirmed: Tower C 3BHK unit plan prints sizes in metres and ft-in. mahindrahome floor-plan page likely has 4BHK too."
+  },
+  "s5125619": {
+   "name": "Unitech South City II",
+   "plans": [],
+   "note": "not apartments (plotted township with builder floors)"
+  },
+  "s5416821": {
+   "name": "SS Cendana",
+   "plans": [
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20230802_012359_1850-Sq.Ft-3BHK+3-Toilet.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.orionrealtors.com/ss-cendana-residences-in-gurgaon.html"
+    },
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20230802_012320_1450-Sq.Ft-3BHK+2-Toilet.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.orionrealtors.com/ss-cendana-residences-in-gurgaon.html"
+    },
+    {
+     "url": "https://doc.squareyards.com/ProjectKnowledge/231893-ss-cendana-3687.pdf",
+     "kind": "pdf",
+     "bhk": null,
+     "found_on": "https://doc.squareyards.com/ProjectKnowledge/231893-ss-cendana-3687.pdf"
+    },
+    {
+     "url": "https://www.axiomlandbase.in/wp-content/uploads/2023/07/SS-Cendana-Residences-3-BHk-2T-Floor-Plan.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.axiomlandbase.in/property/ss-cendana-residences/"
+    }
+   ],
+   "note": "Confirmed: 1850 sqft 3BHK+study plan prints mm and ft-in sizes (small text)."
+  },
+  "s5312753": {
+   "name": "Signature Global City 92",
+   "plans": [
+    {
+     "url": "https://www.axiomlandbase.in/wp-content/uploads/2021/10/Signature-Global-City-92-Unit-Plan-3-BHK-Type-A-1024x576.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.axiomlandbase.in/property/signature-global-city-92/"
+    },
+    {
+     "url": "https://navi.com/wp-content/uploads/2022/09/type-b-2bhk-toilet-unit-plan.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://navi.com/project/signature-global-city-92-sector-92-gurgaon/"
+    }
+   ],
+   "note": "Low-rise DDJAY floors (S+4). Unverified."
+  },
+  "s5000191": {
+   "name": "Essel Towers",
+   "plans": [
+    {
+     "url": "https://files.propertywala.com/photos/18/J521211909.floor-plan.54808l.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://propertywala.com/essel-towers-gurgaon"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/Floor-Plan-48-Essel-Towers-Gurgaon-5000191_470_490.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/essel-towers-floor-plan-mehrauli-gurgaon-road-gurgaon-pdpid-4d4235303030313931"
+    }
+   ],
+   "note": "Old project; plans are small and unverified."
+  },
+  "s5245587": {
+   "name": "Pyramid Infinity",
+   "plans": [
+    {
+     "url": "https://affordablehousinggurugram.in/media/2021/01/Pyramid-Infinity-Gurgaon-Floor-Plan-3-BHK-Type-A.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://affordablehousinggurugram.in/property/pyramid-infinity/"
+    },
+    {
+     "url": "https://affordablehousinggurugram.in/media/2021/01/Pyramid-Infinity-Gurgaon-Floor-Plan-3-BHK-Type-B.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://affordablehousinggurugram.in/property/pyramid-infinity/"
+    },
+    {
+     "url": "https://big-estate-listing-assets.s3.ap-south-1.amazonaws.com/images/projects/PROP-GGN-513/floor_plans/2d/1_bhk_apartment_315_sq_ft_fs-large.webp",
+     "kind": "image",
+     "bhk": 1,
+     "found_on": "https://www.bigestate.io/in/project/pyramid-infinity-by-pyramid-infratech-private-limited-in-southern-peripheral-road-golf-course-extension-road-gurgaon"
+    },
+    {
+     "url": "https://doc.squareyards.com/ProjectKnowledge/112952-pyramid-infinity-main-9556.pdf",
+     "kind": "pdf",
+     "bhk": null,
+     "found_on": "https://doc.squareyards.com/ProjectKnowledge/112952-pyramid-infinity-main-9556.pdf"
+    }
+   ],
+   "note": "Affordable housing; brochure PDF has typical floor plans. Unverified."
+  },
+  "s5001451": {
+   "name": "Ansals Palam Vihar",
+   "plans": [],
+   "note": "not apartments (plotted township)"
+  },
+  "s5080474": {
+   "name": "Palam Vihar Residential Society",
+   "plans": [],
+   "note": "not apartments (builder floors and plots per magicbricks)"
+  },
+  "s5010510": {
+   "name": "Unitech Nirvana Country",
+   "plans": [],
+   "note": "not apartments (plotted township: plots, villas, builder floors)"
+  },
+  "s5020173": {
+   "name": "IREO Skyon",
+   "plans": [
+    {
+     "url": "https://www.luxuryroof.in/imags/2BHK-1524Sq.ft-Floor-Plan-Ireo-Skyon-Sector-60-Gurugram.webp",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.luxuryroof.in/gurgaon/ireo-skyon"
+    },
+    {
+     "url": "https://static.360realtors.com/properties/photos/31/floorplans/2bhk_1524.png",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.360realtors.com/ireo-skyon-sector-60-gurgaon-uid-31"
+    },
+    {
+     "url": "https://sreindiarealty.com/uploads/floor/ireo-skyon-sector-60-gurgaon-floor-plan-iv-3.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://sreindiarealty.com/ireo-skyon-sector-60-gurgaon"
+    },
+    {
+     "url": "https://images.jdmagicbox.com/standard/brouchers/011pxx11.xx11.161118133342.z9g3/ireo-skyon_tvztzk4nt6.pdf",
+     "kind": "pdf",
+     "bhk": null,
+     "found_on": "https://images.jdmagicbox.com/standard/brouchers/011pxx11.xx11.161118133342.z9g3/ireo-skyon_tvztzk4nt6.pdf"
+    }
+   ],
+   "note": "Brochure PDF on jdmagicbox. Unverified."
+  },
+  "s5016508": {
+   "name": "Ansal API Esencia",
+   "plans": [
+    {
+     "url": "https://cms.dcjain.com/wp-content/uploads/2023/09/3BHK3T-1323-SqFt-1-jpg.webp",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://dcjain.com/properties/gurgaon/golf-course-extension-road/ansal-api-esencia-20197/"
+    },
+    {
+     "url": "https://cms.dcjain.com/wp-content/uploads/2023/09/4BHK4T-2198-SqFt-1-jpg.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://dcjain.com/properties/gurgaon/golf-course-extension-road/ansal-api-esencia-20197/"
+    },
+    {
+     "url": "https://static.360realtors.com/properties/photos/39/floorplans/1323_3_bhk.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.360realtors.com/ansal-api-esencia-sector-67-gurgaon-uid-39"
+    },
+    {
+     "url": "https://ansalesencia.com/static/media/ground-floor-plan.9abd5d89bd8dc06c2f9e.png",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://ansalesencia.com/"
+    }
+   ],
+   "note": "Gated township of low-rise builder floors (Sovereign Floors) plus plots. Unverified."
+  },
+  "s5084108": {
+   "name": "M3M Sierra 68",
+   "plans": [
+    {
+     "url": "https://static.360realtors.com/properties/photos/1246/floorplans/1199.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.360realtors.com/m3m-india-sierra-sector-68-gurgaon-uid-1246"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/2018/08/31/Floor-Plan-31-M3M-Sierra-68-Gurgaon-5084108_530_836.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/m3m-sierra-68-floor-plan-sector-68-gurgaon-pdpid-4d4235303834313038"
+    }
+   ],
+   "note": "2BHK and 2BHK+study only. Unverified."
+  },
+  "s5020794": {
+   "name": "M3M Merlin",
+   "plans": [
+    {
+     "url": "https://www.luxuryroof.in/imags/3BHK-2047Sq.ft-Floor-Plan-M3M-Merlin-Sector-67-Gurugram.webp",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.luxuryroof.in/gurgaon/m3m-merlin"
+    },
+    {
+     "url": "https://www.m3mrealty.com/assets/img/projects/m3m-merlin-sector-67-gurgaon/plan-01.webp",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.m3mrealty.com/residential/m3m-merlin-sector-67-gurgaon/"
+    },
+    {
+     "url": "https://www.m3mproperties.com/floorplan/7.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.m3mproperties.com/residential/gurugram/m3m-merlin-sector-67/"
+    },
+    {
+     "url": "https://static.360realtors.com/properties/photos/66/floorplans/2047.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.360realtors.com/m3m-india-merlin-sector-67-gurgaon-uid-66"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5140933": {
+   "name": "Birla Navya",
+   "plans": [
+    {
+     "url": "https://www.images.hcorealestates.com/img/floorimage/birla-navya-gurgaon_2BHK-212sqyds.webp",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.hcorealestates.com/project/birla-navya-gurgaon"
+    },
+    {
+     "url": "https://www.images.hcorealestates.com/img/floorimage/birla-navya-gurgaon_4BHK-482sqyds.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.hcorealestates.com/project/birla-navya-gurgaon"
+    },
+    {
+     "url": "https://www.luxuryroof.in/imags/3BHK%2B3T-Floor-Plan-Birla-Navya-Golf-Course-Extension-Sector-63A-Gurugram.webp",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.luxuryroof.in/gurgaon/birla-navya"
+    }
+   ],
+   "note": "Low-rise independent floors in gated community. Unverified. Developer microsite: birlanavygurgaon.in/floor-plan.php"
+  },
+  "s5125615": {
+   "name": "Uppal Southend",
+   "plans": [],
+   "note": "not apartments (plotted township, builder floors)"
+  },
+  "s5017405": {
+   "name": "Central Park 2",
+   "plans": [
+    {
+     "url": "https://www.axiomlandbase.in/wp-content/uploads/2015/10/Central-Park-Resorts-Belgravia-4-BHK-Floor-Plan-3800-sqft..jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.axiomlandbase.in/property/central-park-resorts-ii-belgravia-phase-2-sector-48-in-gurgaon/"
+    },
+    {
+     "url": "https://www.axiomlandbase.in/wp-content/uploads/2015/10/Central-Park-Resorts-Belgravia-2-BHK-Floor-Plan-1495-sqft..jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.axiomlandbase.in/property/central-park-resorts-ii-belgravia-phase-2-sector-48-in-gurgaon/"
+    },
+    {
+     "url": "https://www.axiomlandbase.in/wp-content/uploads/2014/12/centralparkii-floorplan-3bhk-2560-1.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.axiomlandbase.in/property/central-park-resorts-ii-belgravia-phase-1-sector-48-in-gurgaon/"
+    },
+    {
+     "url": "https://www.centralpark-2.in/floor-plan/newfplan/Tower_O_Unit_D_Townhouse_1869SqFt3BHK.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.centralpark-2.in/Belgravia-Tower-20-26-Central-Park2.php"
+    }
+   ],
+   "note": "Belgravia apartments plus townhouses. centralpark-2.in has many more per-tower plans. Unverified."
+  },
+  "s5065817": {
+   "name": "Sector 23 RWA",
+   "plans": [],
+   "note": "not apartments (HUDA sector RWA, plots/houses)"
+  },
+  "s5029905": {
+   "name": "ATS Triumph",
+   "plans": [
+    {
+     "url": "https://www.ats.ind.in/projects-in-gurugram/ats-triumph-sector-104-dwarka-expressway/images/floor-plans/4bhk-3150.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.ats.ind.in/projects-in-gurugram/ats-triumph-sector-104-dwarka-expressway/"
+    },
+    {
+     "url": "https://static.360realtors.com/properties/photos/99/floorplans/4bhk_3150.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.360realtors.com/ats-triumph-sector-104-gurgaon-uid-99"
+    },
+    {
+     "url": "https://imagecdn.99acres.com/media1/26961/12/539232079O-1734600463398.pdf",
+     "kind": "pdf",
+     "bhk": null,
+     "found_on": "https://imagecdn.99acres.com/media1/26961/12/539232079O-1734600463398.pdf"
+    }
+   ],
+   "note": "Developer page ats.ind.in also lists 3BHK 2290 plan. Unverified."
+  },
+  "s5001032": {
+   "name": "DLF Regency Park 1",
+   "plans": [
+    {
+     "url": "https://projectcdn.99acres.com/project_data/443d22/block1_42163/3D/18230_B1_1F1_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/dlf-regency-park-1-floor-plan-dlf-phase-4-gurgaon-npxid-r28102"
+    }
+   ],
+   "note": "99acres 3D plans carry a side table of room dimensions (format confirmed on a sibling 99acres image). More configs on the 99acres floor-plan page."
+  },
+  "s5001033": {
+   "name": "DLF Regency Park 2",
+   "plans": [
+    {
+     "url": "https://www.addressofchoice.com/aoc_assets/floorplan/4492/1538637582_DLF_The_Regency_Park_2.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.addressofchoice.com/dlf-the-regency-park-2-dlf-city-phase-4-gurgaon/3-bhk-1200sqft-apartment-p9430"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/675be9/block1_25381/3D/14953_B1_1F2_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/dlf-regency-park-2-floor-plan-dlf-phase-4-gurgaon-npxid-r12074"
+    }
+   ],
+   "note": "Confirmed: 3BHK 1550 sqft 3D plan with full room dimension table (ft-in)."
+  },
+  "s5407965": {
+   "name": "Sushant Lok C Block",
+   "plans": [],
+   "note": "not apartments (plotted residential block)"
+  },
+  "s5000877": {
+   "name": "Indiabulls Centrum Park",
+   "plans": [
+    {
+     "url": "https://i.imhvh.com/asset/img/project/unit/indiabulls_centrum_park_floorplan_t_block_g1_u_4_dfls_sp2875.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://huntvastuhomes.com/floorplans/indiabulls-centrum-park-sector-103-gurugram-floor-plans-1443"
+    },
+    {
+     "url": "https://www.dwarkaexpresswayhomes.com/floorplan/694063454Indiabulls-Centrum-Park-Floor-Plan-4-BHK-Type-2875.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.dwarkaexpresswayhomes.com/residential-project-indiabulls-centrum-park"
+    },
+    {
+     "url": "https://static.360realtors.com/properties/photos/2207/floorplans/1250.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.360realtors.com/indiabulls-centrum-park-sector-103-gurgaon-uid-2207"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/80a5f2/block1_16687/3D/11834_B1_1F23_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/indiabulls-centrum-park-floor-plan-sector-103-gurgaon-npxid-r461"
+    }
+   ],
+   "note": "Confirmed: 4BHK 2875 plan prints room sizes, but text is small/low-res; huntvastuhomes floorplans page has other units."
+  },
+  "s5080524": {
+   "name": "Sushant Lok Builder Floors",
+   "plans": [],
+   "note": "not apartments (builder floors)"
+  },
+  "s5168751": {
+   "name": "South City 1",
+   "plans": [],
+   "note": "not apartments (plotted colony)"
+  },
+  "s5318507": {
+   "name": "Luxury Floors Gurgaon",
+   "plans": [],
+   "note": "not apartments (builder floors brand)"
+  },
+  "s5029719": {
+   "name": "Central Park 1",
+   "plans": [
+    {
+     "url": "https://static.squareyards.com/resources/images/gurgaon/unit-image/central-park-i-apartment-2bhk-1541sqft-1.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.squareyards.com/gurgaon-residential-property/central-park-i/519/project"
+    },
+    {
+     "url": "https://www.images.hcorealestates.com/img/floorimage/central-park-1-gurgaon_4BHK-2439SQFT.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.hcorealestates.com/project/central-park-1-gurgaon"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5065818": {
+   "name": "Ambience Caitriona",
+   "plans": [
+    {
+     "url": "https://www.images.hcorealestates.com/img/floorimage/ambience-caitriona-gurgaon_PENTHOUSE-4BR-TOTAL-AREA-9700SFT.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.hcorealestates.com/project/ambience-caitriona-gurgaon"
+    },
+    {
+     "url": "https://static.360realtors.com/properties/photos/3196/floorplans/7750.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.360realtors.com/ambience-caitriona-sector-24-gurgaon-uid-3196"
+    },
+    {
+     "url": "https://files.propertywala.com/photos/69/J919084421.floor-plan-3.65129l.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://propertywala.com/P12934285"
+    },
+    {
+     "url": "https://im.proptiger.com/2/5014403/12/45002449.jpeg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.proptiger.com/gurgaon/sector-24/ambience-group-caitriona-506323"
+    }
+   ],
+   "note": "Developer microsite ambiencecaitriona.com/floor-plan.php offers 4/5BHK plans. Unverified."
+  },
+  "s5001049": {
+   "name": "DLF The Magnolias",
+   "plans": [
+    {
+     "url": "https://i.imhvh.com/asset/img/project/unit/dlf_the_magnolias_floorplan_t_block_19_u_19b_sp5825.jpg",
+     "kind": "image",
+     "bhk": 5,
+     "found_on": "https://huntvastuhomes.com/floorplans/dlf-the-magnolias-sector-42-gurugram-floor-plans-1464"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/288d41/block1_16789/3D/11805_B1_1F2_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/dlf-the-magnolias-floor-plan-sector-42-gurgaon-npxid-r660"
+    },
+    {
+     "url": "https://www.propzilla.in/uploads/propertyfloorplans/image/dlf-magnolias-floor-plan1.webp",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.propzilla.in/property/dlf-magnolias-sector-42-gurgaon"
+    }
+   ],
+   "note": "Unverified; huntvastu and 99acres 3D formats usually print sizes."
+  },
+  "s5406175": {
+   "name": "DLF Phase 1 Arjun Marg",
+   "plans": [],
+   "note": "not apartments (plotted DLF phase, houses/builder floors)"
+  },
+  "s5456325": {
+   "name": "Godrej Verano",
+   "plans": [
+    {
+     "url": "https://godrejprojectsector63a.tagrealty.co.in/images/floorplan-3bhk-a.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://godrejprojectsector63a.tagrealty.co.in/"
+    },
+    {
+     "url": "https://gurgaonproject.com/images/godrej-verano/floor-plan-1.webp",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://gurgaonproject.com/projects/godrej-verano-sector-63a-golf-course-extension-road-gurugram.php"
+    },
+    {
+     "url": "https://100acress.s3.us-east-1.amazonaws.com/watermark-projects/1793528045201-1793528044989-zwi7lype-f1.webp",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.100acress.com/godrej-verano/"
+    }
+   ],
+   "note": "New launch; unverified, may be marketing renders."
+  },
+  "s5423465": {
+   "name": "TARC Ishva",
+   "plans": [
+    {
+     "url": "https://tarchomes.com/wp-content/uploads/2026/09/ISHVA_A3_3.5BHK_3035__TYPICAL-FLOOR-scaled.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://tarchomes.com/tarc-ishva-sector-63a-gurugram/"
+    },
+    {
+     "url": "https://www.tarcishvagurgaon.com/images/floor-plan/3.5bhk-floor-plan-2850sqft.webp",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.tarcishvagurgaon.com/"
+    },
+    {
+     "url": "https://www.luxuryroof.in/imags/3BHK-2945Sq.ft-Floor-Plan-TARC-Ishva-Sector-63A-Gurgaon.webp",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.luxuryroof.in/gurgaon/tarc-ishva"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5077017": {
+   "name": "Unitech Greenwood City",
+   "plans": [],
+   "note": "not apartments (plotted township: plots, villas, builder floors)"
+  },
+  "s5001755": {
+   "name": "ABW La Lagune Gurgaon",
+   "plans": [
+    {
+     "url": "https://cms.dcjain.com/wp-content/uploads/2022/06/4BHK-4T-SQ-4050-Sq-Ft.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://dcjain.com/properties/gurgaon/golf-course-road/la-lagune-18292/"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/Floor-Plan-7-La-Lagune-Gurgaon-5001755_700_1200.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/abw-la-lagune-gurgaon-floor-plan-golf-course-road-gurgaon-pdpid-4d4235303031373535"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/2025/04/21/Floor-Plan-41-La-Lagune-Gurgaon-Gurgaon-5001755_802_1195.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/abw-la-lagune-gurgaon-floor-plan-golf-course-road-gurgaon-pdpid-4d4235303031373535"
+    },
+    {
+     "url": "https://sreindiarealty.com/uploads/floor/la-lagune-floor-plan-i-0.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://sreindiarealty.com/la-lagune"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5122737": {
+   "name": "Pyramid Fusion Homes",
+   "plans": [
+    {
+     "url": "https://hudaaffordablehomes.com/wp-content/uploads/2019/03/Pyramid-Fusion-Homes-Floor-Plan-Type-A.jpeg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://hudaaffordablehomes.com/pyramid-fusion-homes-sector-70a-gurgaon/pyramid-fusion-homes-floor-plan-type-a/"
+    },
+    {
+     "url": "https://hudaaffordablehomes.com/wp-content/uploads/2019/03/Pyramid-Fusion-Homes-Floor-Plan-Type-B.jpeg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://hudaaffordablehomes.com/pyramid-fusion-homes-sector-70a-gurgaon/pyramid-fusion-homes-floor-plan-type-b/"
+    },
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20210801_072554_2%20BHK%20-%20Type%20C.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.orionrealtors.com/pyramid-fusion-homes-in-gurgaon.html"
+    },
+    {
+     "url": "https://haryanaaffordablehousing.com/wp-content/uploads/2019/03/PF70A2BHK-TypeA.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://haryanaaffordablehousing.com/pyramid-fusion-homes/"
+    }
+   ],
+   "note": "Affordable housing, 2BHK types A/B/C. Unverified."
+  },
+  "s5404383": {
+   "name": "Central Park The Orchard",
+   "plans": [
+    {
+     "url": "https://www.propzilla.in/uploads/propertyfloorplans/image/central-park-the-orchard-3bhk-type1-floor-plan.webp",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.propzilla.in/property/central-park-the-orchard"
+    },
+    {
+     "url": "https://www.zricks.com/img/UpdatesBlog/237c3abd-b97f-4ed7-a7cb-73b650fa058dcentral-park-the-orchard-post-02-floor-plan.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.zricks.com/Updates/CENTRAL-PARK-THE-ORCHARD-Floor-Plan-Type-2-Corner-Residence/27487"
+    }
+   ],
+   "note": "Low-rise independent floors (4 floors). Unverified. Scribd 'Plan Booklet' exists but not a direct file."
+  },
+  "s5001762": {
+   "name": "Salcon The Verandas",
+   "plans": [
+    {
+     "url": "https://static.360realtors.com/properties/photos/600/floorplans/4495.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.360realtors.com/salcon-and-saluja-the-verandas-sector-54-gurgaon-uid-600"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/9215af/block1_6120/3D/6917_B1_1F4_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/salcon-the-verandas-floor-plan-sector-54-gurgaon-npxid-r26644"
+    },
+    {
+     "url": "https://big-estate-listing-assets.s3.ap-south-1.amazonaws.com/images/projects/PROP-GGN-827/floor_plans/2d/5_bhk_apartment_6425_sq_ft_fs-large.webp",
+     "kind": "image",
+     "bhk": 5,
+     "found_on": "https://www.bigestate.io/in/project/salcon-the-verandas-by-salcon-and-saluja-constructions-in-sector-54-golf-course-road-gurgaon"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5082360": {
+   "name": "Godrej Icon",
+   "plans": [
+    {
+     "url": "https://d1uczv4l7tlcpy.cloudfront.net/admin/public/images/brochure/1791198628_brochure.pdf",
+     "kind": "pdf",
+     "bhk": null,
+     "found_on": "https://d1uczv4l7tlcpy.cloudfront.net/admin/public/images/brochure/1791198628_brochure.pdf"
+    },
+    {
+     "url": "https://www.images.hcorealestates.com/img/floorimage/godrej-icon-gurgaon_2BHK-1630SQFT.webp",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.hcorealestates.com/project/godrej-icon-gurgaon"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/2a32df/block1_21237/3D/13646_B1_1F2_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/godrej-icon-floor-plan-sector-88a-gurgaon-npxid-r123001"
+    },
+    {
+     "url": "https://www.realtimerealtors.in/storage/property/floorplan/Floor13_1612938525.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.realtimerealtors.in/property/godrej-icon"
+    }
+   ],
+   "note": "PDF titled 'Godrej Icon Floor Plan FINAL'. Unverified."
+  },
+  "s5001437": {
+   "name": "DLF The Pinnacle",
+   "plans": [
+    {
+     "url": "https://www.luxuryroof.in/imags/4BHK-3868Sq.Ft-Floor-Plan-DLF-The-Pinnacle-DLF-Phase-5-Sector-43-Gurugram.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.luxuryroof.in/gurgaon/dlf-the-pinnacle"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/95abbc/block1_14952/3D/10694_B1_1F2_3D.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.99acres.com/dlf-the-pinnacle-floor-plan-dlf-phase-5-gurgaon-npxid-r12068"
+    }
+   ],
+   "note": "Confirmed: luxuryroof 4BHK 3868 plan prints every room in ft-in. Single unit type."
+  },
+  "s5080287": {
+   "name": "Saan Verdante",
+   "plans": [
+    {
+     "url": "https://static.360realtors.com/properties/photos/140/floorplans/1965.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.360realtors.com/saan-verdante-sector-95-gurgaon-uid-140"
+    },
+    {
+     "url": "https://static.360realtors.com/properties/photos/140/floorplans/3bhk_2542.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.360realtors.com/saan-verdante-sector-95-gurgaon-uid-140"
+    },
+    {
+     "url": "https://www.luxuryroof.in/imags/3BHK-2904Sq.ft-Floor-Plan-Saan-Verdante-Sector-95-Gurgaon.webp",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.luxuryroof.in/gurgaon/saan-verdante"
+    },
+    {
+     "url": "https://static.squareyards.com/resources/images/gurgaon/unit-image/saan-verdante-apartment-4bhk-sq-3352sqft-1.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.squareyards.com/gurgaon-residential-property/saan-verdante/8632/project"
+    },
+    {
+     "url": "https://doc.squareyards.com/ProjectBrouchure/gurgaon-residential-property/saan-verdante/8632/project/brochure/Brochure_aaf3699e25ee41b681814a71b4c3a532.pdf",
+     "kind": "pdf",
+     "bhk": null,
+     "found_on": "https://doc.squareyards.com/ProjectBrouchure/gurgaon-residential-property/saan-verdante/8632/project/brochure/Brochure_aaf3699e25ee41b681814a71b4c3a532.pdf"
+    }
+   ],
+   "note": "Confirmed: 3BHK 1965 sqft plan prints all room sizes in ft-in."
+  },
+  "s5022717": {
+   "name": "DLF Alameda",
+   "plans": [
+    {
+     "url": "https://www.luxuryroof.in/imags/4BHK-Independent-Floor-Plan-4700Sq.ft-DLF-ALAMEDA-Sector%2073-Gurugram.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.luxuryroof.in/gurgaon/dlf-alameda"
+    },
+    {
+     "url": "https://www.luxuryroof.in/imags/4BHK-Independent-Floor-Plan-4843.76Sq.ft-DLF-ALAMEDA-Sector%2073-Gurugram.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.luxuryroof.in/gurgaon/dlf-alameda"
+    },
+    {
+     "url": "https://bestluxuryresidences.in/wp-content/uploads/2025/10/DLF-Alameda-Floor-Plan.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://bestluxuryresidences.in/dlf-alameda-sector-73-gurgaon/"
+    }
+   ],
+   "note": "Low-rise independent floors (S+4) in gated DLF township. luxuryroof format usually prints ft-in sizes."
+  },
+  "s5440323": {
+   "name": "Max Estate 361",
+   "plans": [
+    {
+     "url": "https://cdn.maxestates.in/wp-content/uploads/2025/11/3-Bedroom-A.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://maxestates.in/residential-projects/gurgaon/premium-homes-estate-361"
+    },
+    {
+     "url": "https://www.luxuryroof.in/imags/3BHK-2693sq.ft.-Floor-Plan-Max-Estates-361-Sector-65-Gurugram.webp",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.luxuryroof.in/gurgaon/max-estate-361"
+    },
+    {
+     "url": "https://www.rathiglobalrealty.com/uploads/floor_plans/1789556795_fp1_94.jpeg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.rathiglobalrealty.com/max-estate-361-floor-plan-sector-36a-gurgaon-npd"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/087e41/block1_134406/3D/62146_B1_1F3_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/max-estate-361-floor-plan-sector-36a-gurgaon-npxid-r446530"
+    }
+   ],
+   "note": "Developer site has per-type plans. Unverified."
+  },
+  "s5010014": {
+   "name": "DLF Exclusive Floors",
+   "plans": [],
+   "note": "not apartments (builder floors)"
+  },
+  "s5173315": {
+   "name": "Sushant Lok 3",
+   "plans": [],
+   "note": "not apartments (plotted colony)"
+  },
+  "s5001134": {
+   "name": "Bestech Park View Ananda",
+   "plans": [
+    {
+     "url": "https://cms.dcjain.com/wp-content/uploads/2023/02/3BHK2T-1660-SqFt.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://dcjain.com/properties/gurgaon/new-gurgaon/bestech-park-view-ananda-19015/"
+    },
+    {
+     "url": "https://static.360realtors.com/properties/photos/37/floorplans/1320.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.360realtors.com/bestech-park-view-ananda-sector-81-gurgaon-uid-37"
+    },
+    {
+     "url": "https://files.propertywala.com/photos/5b/J304611119.3bhk-floor-plan.54875l.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://propertywala.com/bestech-park-view-ananda-gurgaon"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/15205f/block1_4795/3D/6562_B1_1F1_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/bestech-park-view-ananda-floor-plan-sector-81-gurgaon-npxid-r6464"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5286133": {
+   "name": "Sare Homes Crescent Parc Petioles",
+   "plans": [
+    {
+     "url": "https://www.images.hcorealestates.com/img/floorimage/sare-petioles-gurgaon_4BHK-SUPER-AREA-2040SQFT.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.hcorealestates.com/project/sare-petioles-gurgaon"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/1510812846955b.pdf",
+     "kind": "pdf",
+     "bhk": null,
+     "found_on": "https://img.staticmb.com/mbimages/project/1510812846955b.pdf"
+    },
+    {
+     "url": "https://housing-is-01.s3.amazonaws.com/6a32315a/a862417aa096786591115bbcd66f019f/original.pdf",
+     "kind": "pdf",
+     "bhk": null,
+     "found_on": "https://housing-is-01.s3.amazonaws.com/6a32315a/a862417aa096786591115bbcd66f019f/original.pdf"
+    }
+   ],
+   "note": "Two SARE Sector 92 brochure PDFs (Crescent Parc phases incl. Petioles). Unverified. Crescent Parc plans also on hcorealestates."
+  },
+  "s5316841": {
+   "name": "Luxury Builder Floors (Sushant Lok)",
+   "plans": [],
+   "note": "not apartments (builder floors)"
+  },
+  "s5001464": {
+   "name": "Mayfield Garden",
+   "plans": [],
+   "note": "not apartments (plotted township)"
+  },
+  "s5124359": {
+   "name": "ROF Pyramid Amaltas",
+   "plans": [
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20191103_072015_ROF%20Amaltas%202%20BHK%20Type%201.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.orionrealtors.com/rof-amaltas-sector-92-in-gurgaon.html"
+    },
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20191103_071824_ROF%20Amaltas%201%20BHK%20Type%203.jpg",
+     "kind": "image",
+     "bhk": 1,
+     "found_on": "https://www.orionrealtors.com/rof-amaltas-sector-92-in-gurgaon.html"
+    },
+    {
+     "url": "http://www.justplan.co.in/wp-content/uploads/2019/05/rofamaltas3bhk-1-723x1024.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.justplan.co.in/property/rof-amaltas-affordable-housing-sector-92-gurugram/"
+    },
+    {
+     "url": "https://i.imhvh.com/asset/img/project/unit/rof_amaltas_floorplan_t_d_u_2_type_2_cr645.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://huntvastuhomes.com/floorplans/rof-amaltas-sector-92-gurugram-floor-plans-244"
+    }
+   ],
+   "note": "Assumed same project as ROF Amaltas Sector 92 (affordable). Unverified."
+  },
+  "s5000579": {
+   "name": "Orchid Island",
+   "plans": [
+    {
+     "url": "https://www.axiomlandbase.in/wp-content/uploads/2015/09/Orchid-Island-2-BHK-Floor-Plan-968-Sqft..jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.axiomlandbase.in/property/orchid-island-sector-51-gurgaon/"
+    },
+    {
+     "url": "https://www.axiomlandbase.in/wp-content/uploads/2015/09/Orchid-Island-3-BHK-Floor-Plan-2126-Sqft..jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.axiomlandbase.in/property/orchid-island-sector-51-gurgaon/"
+    },
+    {
+     "url": "https://www.addressofchoice.com/aoc_assets/floorplan/64435/1635503261_3bhk2.jpeg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.addressofchoice.com/orchid-island-sector-51-gurgaon/3-bhk-1485sqft-apartment-p108405"
+    },
+    {
+     "url": "https://housing-is-01.s3.amazonaws.com/6a32315a/7fd11a8165fb8d6a33e5d600c2f0a803/original.pdf",
+     "kind": "pdf",
+     "bhk": null,
+     "found_on": "https://housing-is-01.s3.amazonaws.com/6a32315a/7fd11a8165fb8d6a33e5d600c2f0a803/original.pdf"
+    }
+   ],
+   "note": "Low-rise apartments (G+3). Brochure PDF on housing.com S3. Unverified."
+  },
+  "s5418523": {
+   "name": "Trehan Luxury Floors",
+   "plans": [],
+   "note": "not apartments (builder floors)"
+  },
+  "s5001031": {
+   "name": "DLF Oakwood Estate",
+   "plans": [
+    {
+     "url": "https://www.luxuryroof.in/imags/3BHK-1519Sq.ft-Floor-Plan-DLF-Oakwood-Estate-DLF-Phase2-Gurgaon.webp",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.luxuryroof.in/gurgaon/dlf-oakwood-estate"
+    },
+    {
+     "url": "https://newprojects.99acres.com/projects/dlf_builders/dlf_oakwood_estate/maps/86yyn3eh.jpeg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/dlf-oakwood-estate-floor-plan-dlf-phase-2-gurgaon-npxid-r29090"
+    },
+    {
+     "url": "https://big-estate-listing-assets.s3.ap-south-1.amazonaws.com/images/projects/PROP-GGN-895/floor_plans/3d/4_bhk_apartment_1701_sq_ft_fs-large.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.bigestate.io/in/project/dlf-oakwood-estate-by-dlf-in-dlf-phase-2-dlf-city-gurgaon"
+    }
+   ],
+   "note": "luxuryroof format reliably prints ft-in sizes. Unverified for this unit."
+  },
+  "s5041639": {
+   "name": "Godrej Oasis",
+   "plans": [
+    {
+     "url": "https://static.360realtors.com/properties/photos/27/floorplans/2bhk_1463.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.360realtors.com/godrej-oasis-sector-88a-gurgaon-uid-27"
+    },
+    {
+     "url": "https://www.luxuryroof.in/imags/2BHK%2BS-1479Sq.ft-Floor-Plan-Godrej-Oasis-Sector-88A-Gurgaon.webp",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.luxuryroof.in/gurgaon/godrej-oasis"
+    },
+    {
+     "url": "https://dwarkaexpressway-bucket.s3.ap-south-1.amazonaws.com/images/0f8e872371681eb6b8701761107d91.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.dwarkaexpresswayprojects.in/godrej-oasis"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5324319": {
+   "name": "Luxury Builder Floors (South City 2)",
+   "plans": [],
+   "note": "not apartments (builder floors)"
+  },
+  "s5448125": {
+   "name": "Sobha Crescent",
+   "plans": [
+    {
+     "url": "https://www.axiomlandbase.in/wp-content/uploads/2026/04/sobha-crescent-sector-63a-gurgaon-floor-plan-4-u-bhk-tower-c1-1024x998.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.axiomlandbase.in/property/sobha-crescent-sector-63a-gurgaon/"
+    },
+    {
+     "url": "https://www.triversehomes.com/assets/img/d/sobha-crescent-sector-63a-gurgaon-fpx0.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.triversehomes.com/sobha-crescent-sector-63a-gurgaon/"
+    },
+    {
+     "url": "https://api.wegrowinfraventures.com/public/images/propertyplan/floorplan-1771410917124.webp",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://wegrowinfraventures.com/gurugram/residential/sobha-crescent"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/63740/block1_134166/3D/63740_B1_1F1_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/sobha-crescent-floor-plan-sector-63a-gurgaon-npxid-r463372"
+    }
+   ],
+   "note": "New launch. Unverified."
+  },
+  "s5070786": {
+   "name": "Ashiana The Center Court",
+   "plans": [
+    {
+     "url": "https://www.propertyxpo.com/ashianacentercourt/assets/images/plans/2175.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.propertyxpo.com/ashianacentercourt/"
+    },
+    {
+     "url": "https://www.addressofchoice.com/aoc_assets/floorplan/64296/1634221709_bhk.jpeg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.addressofchoice.com/ashiana-the-center-court-prime-sector-88a-gurgaon/3-bhk-1500sqft-apartment-p108008"
+    },
+    {
+     "url": "https://static.360realtors.com/properties/photos/169/floorplans/1565.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.360realtors.com/ashiana-homes-the-center-court-sector-88a-gurgaon-uid-169"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5326243": {
+   "name": "BPTP Green Oaks",
+   "plans": [],
+   "note": "not apartments (plotted development)"
+  },
+  "s5021735": {
+   "name": "Imperia Esfera",
+   "plans": [
+    {
+     "url": "https://imperiastructures.com/wp-content/uploads/2024/07/Unit-Plan-2-BHK.webp",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://imperiastructures.com/residential/the-esfera/"
+    },
+    {
+     "url": "https://imperiastructures.com/wp-content/uploads/2024/07/3-BHK-Tower-G-H-I.webp",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://imperiastructures.com/residential/the-esfera/"
+    },
+    {
+     "url": "https://imperiastructures.com/wp-content/uploads/2024/07/Unit-Plan-Esfera-PH-II-Tower-C-scaled.webp",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://imperiastructures.com/residential/the-esfera/"
+    },
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20221014_110750_3-BHK+Servent.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.orionrealtors.com/imperia-esfera-in-gurgaon.html"
+    }
+   ],
+   "note": "Developer unit plans. Unverified."
+  },
+  "s5137077": {
+   "name": "Suncity Avenue 76",
+   "plans": [
+    {
+     "url": "https://suncityavenue76.com/images/fp/unit-type-1.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://suncityavenue76.com/"
+    },
+    {
+     "url": "https://www.affordablehomesgurgaon.in/wp-content/uploads/2019/11/Suncity-Avenue-76-Floor-Plan-2BHK-Type1.png",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.affordablehomesgurgaon.in/suncity-avenue-76-affordable-housing-sector-76-gurgaon/"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/7088e3/block1_68505/3D/35298_B1_1F2_3D.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.99acres.com/suncity-avenue-76-floor-plan-sector-76-gurgaon-npxid-r343747"
+    }
+   ],
+   "note": "Affordable 2BHK only. Unverified."
+  },
+  "s5285321": {
+   "name": "Satya The Hermitage",
+   "plans": [
+    {
+     "url": "https://www.images.hcorealestates.com/img/floorimage/satya-hermitage-gurgaon_2BHK-1419sqft.webp",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.hcorealestates.com/project/satya-hermitage-gurgaon"
+    },
+    {
+     "url": "https://vnsproperty.com/the-hermitage-sec-103-gurugram/img/floor-plan5.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://vnsproperty.com/the-hermitage-sec-103-gurugram/"
+    },
+    {
+     "url": "https://static.360realtors.com/properties/photos/3509/floorplans/1450.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.360realtors.com/satya-the-hermitage-sector-103-gurgaon-uid-3509"
+    },
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20190506_120103_satya-group-the-hermitage-floor-plan-1bhk-1t-studio-558-sqft.jpg",
+     "kind": "image",
+     "bhk": 1,
+     "found_on": "https://www.orionrealtors.com/satya-the-hermitage-in-gurgaon.html"
+    }
+   ],
+   "note": "huntvastuhomes floorplans page lists tower-wise units. Unverified."
+  },
+  "s5409625": {
+   "name": "Palam Vihar",
+   "plans": [],
+   "note": "not apartments (plotted colony / builder floors)"
+  },
+  "s5124361": {
+   "name": "Pyramid Heights",
+   "plans": [
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20191103_105126_Pyramid%20heights-floor-plan-floor-%202%20BHK%20Type%20A.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.orionrealtors.com/pyramid-heights-sector-85-in-gurgaon.html"
+    },
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20191103_105405_Pyramid%20heights-floor-plan-floor-%202%20BHK%20Type%20E.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.orionrealtors.com/pyramid-heights-sector-85-in-gurgaon.html"
+    },
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20191103_104119_Pyramid%20heights-floor-plan-floor-%201%20BHK%20Type%20A%20&%20B.jpg",
+     "kind": "image",
+     "bhk": 1,
+     "found_on": "https://www.orionrealtors.com/pyramid-heights-sector-85-in-gurgaon.html"
+    },
+    {
+     "url": "https://www.orionrealtors.com/media_image/eboucher/20191103_103515_pyramid%20heights%20sector%2085%20brochure%20(2).pdf",
+     "kind": "pdf",
+     "bhk": null,
+     "found_on": "https://www.orionrealtors.com/media_image/eboucher/20191103_103515_pyramid%20heights%20sector%2085%20brochure%20(2).pdf"
+    }
+   ],
+   "note": "Confirmed: 2BHK Type A plan prints room sizes in metres (e.g. BED ROOM 3.0 x 4.0)."
+  },
+  "s5188846": {
+   "name": "M3M Skywalk",
+   "plans": [
+    {
+     "url": "https://www.luxuryroof.in/imags/2BHK-1415Sq.ft-Floor-Plan-M3M-Skywalk-Sector-74-Gurugram.webp",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.luxuryroof.in/gurgaon/m3m-skywalk"
+    },
+    {
+     "url": "https://www.m3mrealty.com/assets/img/projects/m3m-skywalk-sector-74-gurgaon/plan-06.webp",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.m3mrealty.com/residential/m3m-skywalk-sector-74-gurgaon/"
+    },
+    {
+     "url": "https://api.wegrowinfraventures.com/public/images/propertyplan/floorplan-1774515612402.webp",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://wegrowinfraventures.com/gurugram/residential/m3m-skywalk"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5284627": {
+   "name": "Unitech The Close North",
+   "plans": [
+    {
+     "url": "https://static.squareyards.com/resources/images/gurgaon/unit-image/unitech-the-close-north-apartment-3bhk-2491sqft-1.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.squareyards.com/gurgaon-residential-property/unitech-the-close-north/54/project"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/2025/07/21/Floor-Plan-27-Unitech-The-Close-North-Gurgaon-5284627_708_1414.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/unitech-the-close-north-sector-50-gurgaon-pdpid-4d4235323834363237"
+    },
+    {
+     "url": "https://im.proptiger.com/2/12653163/12/the-close-north-floor-plan-floor-plan-103319576.jpeg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.proptiger.com/gurgaon/sector-50/unitech-limited-the-close-north-1447406"
+    }
+   ],
+   "note": "Confirmed: 3BHK 2491 sqft plan prints metres plus ft-in for every room."
+  },
+  "s5126459": {
+   "name": "Signature Global Orchard Avenue 2",
+   "plans": [
+    {
+     "url": "https://www.affordablehomesgurgaon.in/wp-content/uploads/2019/07/Signature-Global-Orchard-Avenue-2-Floor-Plan-2-BHK-TYPE-01-1024x735.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.affordablehomesgurgaon.in/signature-global-orchard-avenue-2-affordable-housing-sector-93-gurgaon/"
+    },
+    {
+     "url": "https://hudaaffordablehomes.com/wp-content/uploads/2019/09/floorplan-signature.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://hudaaffordablehomes.com/signature-orchard-avenue-2-sector-93-gurgaon/"
+    },
+    {
+     "url": "https://investormart.s3.ap-south-1.amazonaws.com/floorplan/1533-17570742951667-Signature-Global-Orchard-Avenue-2-Floor-Plan-617-sqft.webp",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.investormart.co.in/Project-Signature-Global-Orchard-Avenue-2.php"
+    },
+    {
+     "url": "https://www.addressofchoice.com/aoc_assets/floorplan/63332/1632225768_2bhk.jpeg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.addressofchoice.com/signature-global-orchard-avenue-2-new-gurgaon-sector-93-gurgaon/2-bhk-539sqft-apartment-p106057"
+    }
+   ],
+   "note": "Affordable 2BHK. Unverified."
+  },
+  "s5121509": {
+   "name": "Pyramid Elite",
+   "plans": [
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20210801_063324_2-BHK-TYPE-B.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.orionrealtors.com/pyramid-elite-in-gurgaon.html"
+    },
+    {
+     "url": "https://www.orionrealtors.com/media_image/eboucher/20210812_062220_Pyramid%20Elite%20Sec%2086%20Gurgaon.pdf",
+     "kind": "pdf",
+     "bhk": 2,
+     "found_on": "https://www.orionrealtors.com/media_image/eboucher/20210812_062220_Pyramid%20Elite%20Sec%2086%20Gurgaon.pdf"
+    },
+    {
+     "url": "https://www.affordablehomesgurgaon.in/wp-content/uploads/2017/02/2-BHK-type-c.jpeg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.affordablehomesgurgaon.in/pyramid-elite-affordable-housing-sector-86-gurgaon/"
+    }
+   ],
+   "note": "Affordable 2BHK; brochure PDF has typed floor plans. Unverified."
+  },
+  "s5423539": {
+   "name": "Tulip Crimson",
+   "plans": [
+    {
+     "url": "https://www.axiomlandbase.in/wp-content/uploads/2025/06/tulip-crimson-sector-70-gurgaon-floor-plan-4-bhk.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.axiomlandbase.in/property/tulip-crimson-sector-70-gurgaon/"
+    },
+    {
+     "url": "https://www.rathiglobalrealty.com/uploads/floor_plans/1783601118_fp1_43.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.rathiglobalrealty.com/tulip-crimson-sector-70-gurgaon-npd"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/9e17c5/block1_119826/3D/57458_B1_1F1_3D.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.99acres.com/tulip-crimson-floor-plan-sector-70-gurgaon-npxid-r431058"
+    }
+   ],
+   "note": "Single 4BHK type. Unverified."
+  },
+  "s5285101": {
+   "name": "Emaar MGF The Villas",
+   "plans": [
+    {
+     "url": "https://static.squareyards.com/resources/images/gurgaon/unit-image/emaar-mgf-the-villas-apartment-3bhk-1875sqft-1.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.squareyards.com/gurgaon-residential-property/emaar-the-vilas/376/project"
+    },
+    {
+     "url": "https://www.addressofchoice.com/aoc_assets/floorplan/6563/1538723826_Emaar_MGF_The_Vilas_3545.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.addressofchoice.com/emaar-mgf-the-vilas-dlf-city-phase-2-gurgaon/4-bhk-3800sqft-apartment-p12082"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/2025/06/26/Floor-Plan-15-Emaar-MGF-The-Vilas-Gurgaon-5029537_1754_1241.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/emaar-mgf-the-vilas-sector-25-gurgaon-pdpid-4d4235303239353337"
+    }
+   ],
+   "note": "Assumed same as Emaar 'The Vilas' apartments, Sector 25 (magicbricks lists both spellings). addressofchoice images are usually 99acres-style 3D with dimension table."
+  },
+  "s5066737": {
+   "name": "Central Park The Room",
+   "plans": [
+    {
+     "url": "https://www.luxuryroof.in/imags/Studio-750Sq.ft-Floor-plan-Central-Park-The-Room-Sector-48-Gurgaon.webp",
+     "kind": "image",
+     "bhk": 1,
+     "found_on": "https://www.luxuryroof.in/gurgaon/central-park-the-room"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/8e19a3/block1_14596/3D/10767_B1_1F3_3D.jpg",
+     "kind": "image",
+     "bhk": 1,
+     "found_on": "https://www.99acres.com/central-park-the-room-floor-plan-sector-48-gurgaon-npxid-r38348"
+    },
+    {
+     "url": "https://propularity-bucket.s3.ap-south-1.amazonaws.com/images/54270674496bdae9428dfea5912ee8.jpg",
+     "kind": "image",
+     "bhk": 1,
+     "found_on": "https://propularity.in/central-park/gurugram/central-park-the-room"
+    }
+   ],
+   "note": "Studio / 1BHK serviced units. Unverified."
+  },
+  "s5203845": {
+   "name": "Bellevue Central Park 2",
+   "plans": [
+    {
+     "url": "https://www.centralpark-2.in/floor-plan/bellveue/bellveue-fp1.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.centralpark-2.in/Bellevue-Central-Park2.php"
+    },
+    {
+     "url": "https://www.centralpark-2.in/floor-plan/bellveue/bellveue-fp2.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.centralpark-2.in/Bellevue-Central-Park2.php"
+    },
+    {
+     "url": "https://www.centralpark-2.in/floor-plan/bellveue/bellveue-fp3.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.centralpark-2.in/Bellevue-Central-Park2.php"
+    },
+    {
+     "url": "https://www.centralpark-2.in/floor-plan/bellveue/bellveue-fp4.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.centralpark-2.in/Bellevue-Central-Park2.php"
+    },
+    {
+     "url": "https://www.centralpark-2.in/floor-plan/bellveue/bellveue-fp5.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.centralpark-2.in/Bellevue-Central-Park2.php"
+    }
+   ],
+   "note": "All Bellevue towers are 3BHK per page text; fp7-fp11 also exist on same page. Unverified."
+  },
+  "s5017098": {
+   "name": "Unitech Heritage City",
+   "plans": [],
+   "note": "No floor plan image found after two searches (developer page has none; portals only show listing photos)."
+  },
+  "s5205629": {
+   "name": "Pyramid Midtown Sector 59",
+   "plans": [
+    {
+     "url": "https://www.affordablehomesgurgaon.in/wp-content/uploads/2021/04/Pyramid-Midtown-Floor-Plan-2BHK-Type-B.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.affordablehomesgurgaon.in/pyramid-midtown-affordable-housing-sector-59-gurgaon/"
+    },
+    {
+     "url": "https://doc.squareyards.com/ProjectBrouchure/gurgaon-residential-property/pyramid-midtown/101275/project/brochure/101275-pyramid-midtown-main-9625.pdf",
+     "kind": "pdf",
+     "bhk": 2,
+     "found_on": "https://doc.squareyards.com/ProjectBrouchure/gurgaon-residential-property/pyramid-midtown/101275/project/brochure/101275-pyramid-midtown-main-9625.pdf"
+    },
+    {
+     "url": "https://imgcdn.houssed.com/assets/Files/Projects/123208/Floor%20Plan/FP-1734149804.webp",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://houssed.com/gurgaon/pyramid-infratech/pyramid-midtown-123208"
+    }
+   ],
+   "note": "Affordable 2BHK. Unverified."
+  },
+  "s5001038": {
+   "name": "DLF Icon",
+   "plans": [
+    {
+     "url": "https://www.luxuryroof.in/imags/4BHK-2750Sq.ft-Floor-plan-DLF-The-Icon-DLF-Phase-5-Gurgaon.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.luxuryroof.in/gurgaon/dlf-the-icon"
+    },
+    {
+     "url": "https://cms.dcjain.com/wp-content/uploads/2023/11/4BHK4TSQ-2575-SqFt-jpg.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://dcjain.com/properties/gurgaon/golf-course-road/dlf-the-icon-20284/"
+    },
+    {
+     "url": "https://newprojects.99acres.com/projects/dlf/dlf_the_icon/maps/6a1tyw5z.png",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.99acres.com/dlf-the-icon-floor-plan-dlf-phase-5-gurgaon-npxid-r26572"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/Floor-Plan-20-DLF-Icon-Gurgaon-5001038_721_1400.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.magicbricks.com/dlf-icon-floor-plan-dlf-phase-5-gurgaon-pdpid-4d4235303031303338"
+    }
+   ],
+   "note": "4BHK 2575/2750. Likely same project as s5285889 'DLF The Icon'. Unverified."
+  },
+  "s5099323": {
+   "name": "Central Park Flower Valley Flamingo Floor",
+   "plans": [
+    {
+     "url": "https://www.propertyxpo.com/flamingofloors/images/floor-plans/1093.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.propertyxpo.com/flamingofloors/"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/b1bd00/block1_42479/3D/19259_B1_1F1_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/central-park-flower-valley-flamingo-floors-floor-plan-sector-33-sohna-gurgaon-npxid-r271483"
+    }
+   ],
+   "note": "Low-rise independent floors (2/3BHK). Unverified."
+  },
+  "s5096687": {
+   "name": "Emaar Palm Springs Plaza",
+   "plans": [
+    {
+     "url": "https://www.images.hcorealestates.com/img/floorimage/emaar-mgf-palm-springs-gurgaon_3BHK-FLOOR-PLAN.webp",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.hcorealestates.com/project/emaar-mgf-palm-springs-gurgaon"
+    },
+    {
+     "url": "https://cms.dcjain.com/wp-content/uploads/2022/05/3BHK-3T-SQ-3675-SqFt.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://dcjain.com/properties/gurgaon/golf-course-road/emaar-the-palm-springs-17862/"
+    }
+   ],
+   "note": "Palm Springs Plaza itself is a commercial complex; plans are for the adjacent Emaar The Palm Springs apartments, Sector 54. Check which project the listings really belong to."
+  },
+  "s5000036": {
+   "name": "Vatika India Next",
+   "plans": [],
+   "note": "not apartments (plotted township with independent floors/plots)"
+  },
+  "s5029943": {
+   "name": "Central Park 3",
+   "plans": [
+    {
+     "url": "https://www.centralpark3sohna.org.in/img/property/floor/orig/4bebe14bc3_3bhk+3t+hr-2134-sqft.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.centralpark3sohna.org.in/project/central-park-3-apartments/"
+    },
+    {
+     "url": "https://static.360realtors.com/properties/photos/673/floorplans/1789.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.360realtors.com/central-park-3-flower-valley-sohna-road-gurgaon-uid-673"
+    }
+   ],
+   "note": "Mixed township (apartments, floors, villas, plots). Unverified."
+  },
+  "s5010576": {
+   "name": "Kendriya Vihar Sector 56",
+   "plans": [
+    {
+     "url": "https://projectcdn.99acres.com/project_data/11860/block1_80830/3D/11860_B1_1F1_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/kendriya-vihar-floor-plan-sector-56-gurgaon-npxid-r12302"
+    }
+   ],
+   "note": "Old CGHS; only a 99acres 3D plan (usually has a dimension table). Unverified."
+  },
+  "s5344935": {
+   "name": "Signature Global City 37D II",
+   "plans": [
+    {
+     "url": "https://www.axiomlandbase.in/wp-content/uploads/2021/07/Signature-Global-City-37D-Floor-Plan-3-BHK-Type-A-1024x1024.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.axiomlandbase.in/property/signature-global-city-37d/"
+    },
+    {
+     "url": "https://navi.com/wp-content/uploads/2022/09/3-bhk-3-toilet-unit-plan.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://navi.com/project/signature-global-city-37d-sector-37d-gurgaon"
+    },
+    {
+     "url": "https://spaces.indiapropertydekho.com/2023-10-25/file-368546501.pdf",
+     "kind": "pdf",
+     "bhk": null,
+     "found_on": "https://spaces.indiapropertydekho.com/2023-10-25/file-368546501.pdf"
+    },
+    {
+     "url": "https://imgcdn.houssed.com/assets/Files/Projects/129098/BHK_Configuration/2-BHK-990-SBA-1744109790.webp",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://houssed.com/gurgaon/signature-global/signature-global-city-37d-129098"
+    }
+   ],
+   "note": "Low-rise DDJAY floors. Plans are for City 37D (phase not confirmed as II). Unverified."
+  },
+  "s5170087": {
+   "name": "Emaar Mgf Emerald Floors",
+   "plans": [
+    {
+     "url": "https://www.propertyxpo.com/emaaremeraldfloorspremier/assets/images/plans/1650.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.propertyxpo.com/emaaremeraldfloorspremier/"
+    },
+    {
+     "url": "https://www.luxuryroof.in/imags/3BHK-1650Sq.ft-Floor-Plan-Emaar-MGF-Emerald-Floors-Premier-Sector-65-Gurgaon.webp",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.luxuryroof.in/gurgaon/emaar-emerald-floors-premier"
+    }
+   ],
+   "note": "Low-rise floors (Emerald Floors Premier variant). Unverified."
+  },
+  "s5285263": {
+   "name": "Emaar Emrald Floors Select",
+   "plans": [
+    {
+     "url": "https://www.propertyxpo.com/emaar-emerald-floors-select/assets/images/plans/2400.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.propertyxpo.com/emaar-emerald-floors-select/"
+    },
+    {
+     "url": "https://imgcdn.houssed.com/assets/Files/Projects/4656/BHK_Configuration/967c23906661a8aa6b4c5bbebd0dbba1.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://houssed.com/gurgaon/emaar-group/emaar-emerald-floors-select-4656"
+    }
+   ],
+   "note": "Low-rise 4BHK floors. Unverified."
+  },
+  "s5097085": {
+   "name": "Signature The Roselia",
+   "plans": [
+    {
+     "url": "https://signatureglobaltheroselia.co.in/images/FP/1.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://signatureglobaltheroselia.co.in/floorplan.html"
+    },
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20180902_011915_type-b.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.orionrealtors.com/the-roselia-sector-95a-in-gurgaon.html"
+    },
+    {
+     "url": "https://static.360realtors.com/properties/photos/3739/floorplans/b_2bhk_570.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.360realtors.com/signature-global-the-roselia-sector-95-gurgaon-uid-3739"
+    }
+   ],
+   "note": "Affordable 2BHK. Unverified."
+  },
+  "s5432847": {
+   "name": "DLF Privana North",
+   "plans": [
+    {
+     "url": "https://www.luxuryroof.in/imags/4BHK-2236Sq.ft-Floor-Plan-DLF-Privana-North-Sector-77-Gurgaon.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.luxuryroof.in/gurgaon/dlf-privana-north"
+    },
+    {
+     "url": "https://luxecityestates.com/wp-content/uploads/2025/04/dlf-privana-north-sec-76-gurgaon-1024x720.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://luxecityestates.com/dlf-privana-north-sec-76-gurgaon/"
+    }
+   ],
+   "note": "Under construction 4BHK. luxuryroof format usually prints ft-in. Unverified."
+  },
+  "s5010397": {
+   "name": "Shree Vardhman Flora",
+   "plans": [
+    {
+     "url": "https://i.imhvh.com/asset/img/project/unit/shree_vardhman_flora_floorplan_t_block_b4_u_2_sp1875.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://huntvastuhomes.com/floorplans/shree-vardhman-flora-sector-90-gurugram-floor-plans-1059"
+    },
+    {
+     "url": "https://www.smcrealty.com/images/microsites/brochure/shree-vardhman-flora-9126.pdf",
+     "kind": "pdf",
+     "bhk": null,
+     "found_on": "https://www.smcrealty.com/images/microsites/brochure/shree-vardhman-flora-9126.pdf"
+    },
+    {
+     "url": "https://housing-is-01.s3.amazonaws.com/6a32315a/f39afea031d448d87cced836392c6828/original.pdf",
+     "kind": "pdf",
+     "bhk": null,
+     "found_on": "https://housing-is-01.s3.amazonaws.com/6a32315a/f39afea031d448d87cced836392c6828/original.pdf"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/4294ea/block1_21405/3D/13636_B1_1F1_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/shree-vardhman-flora-floor-plan-sector-90-gurgaon-npxid-r28296"
+    }
+   ],
+   "note": "Confirmed: 3BHK 1875 plan prints every room in ft-in (rotated labels). huntvastu page has block-wise units."
+  },
+  "s5420789": {
+   "name": "Conscient PARQ",
+   "plans": [
+    {
+     "url": "https://www.images.hcorealestates.com/img/floorimage/conscient-parq-sector-80-gurgaon_3bhk-compact.webp",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.hcorealestates.com/project/conscient-parq-sector-80-gurgaon"
+    },
+    {
+     "url": "https://www.luxuryroof.in/imags/3BHK-Floor-Plan-Conscient-PARQ-Naurangpur-Rd-Sector-80-Gurugram.webp",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.luxuryroof.in/gurgaon/conscient-parq"
+    },
+    {
+     "url": "https://reratracker.com/_next/image?url=https%3A%2F%2Fmedia.reratracker.com%2Fhrera%2FUkVSQS1HUkctMTU4NC0yMDI0%2F1761662157363_Section%252038.png&w=3840&q=75",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://reratracker.com/conscient-parq-in-sector-80-gurgaon-by-conscient-rtid3976"
+    }
+   ],
+   "note": "Under construction. Unverified."
+  },
+  "s5422933": {
+   "name": "Modern Luxurious Floors at Malibu Town",
+   "plans": [],
+   "note": "not apartments (builder floors)"
+  },
+  "s5423159": {
+   "name": "Paras Floret",
+   "plans": [
+    {
+     "url": "https://www.luxuryroof.in/imags/2BHK-1121Sq.ft-Floor-Plan-Paras-Floret-Sector-59-Gurugram.webp",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.luxuryroof.in/gurgaon/paras-floret"
+    },
+    {
+     "url": "https://www.affordablehomesgurgaon.in/wp-content/uploads/2025/04/paras-the-florett-enqlave-luxury-floors-sector-59-gurgaon-floor-plan-type-f-2-bhk-1390-sq-ft.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.affordablehomesgurgaon.in/paras-the-florett-enqlave-luxury-floors-sector-59-gurgaon"
+    },
+    {
+     "url": "https://inframantra.blr1.cdn.digitaloceanspaces.com/floorPlan/parasflorett/3bhk.avif",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://inframantra.com/property/paras-florett-sector-59-gurgaon"
+    }
+   ],
+   "note": "Low-rise independent floors (DDJAY). Unverified."
+  },
+  "s5001075": {
+   "name": "Cosmos Executive Apartment",
+   "plans": [
+    {
+     "url": "https://img.staticmb.com/mbimages/project/Floor-Plan-33-Cosmos-Executive-Apartment-Gurgaon-5001075_809_1024.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/cosmos-executive-apartment-floor-plan-palam-vihar-gurgaon-pdpid-4d4235303031303735"
+    },
+    {
+     "url": "https://big-estate-listing-assets.s3.ap-south-1.amazonaws.com/images/projects/PROP-GGN-1170/floor_plans/3d/2_bhk_apartment_1145_sq_ft_fs-large.webp",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.bigestate.io/in/project/mittal-cosmos-executive-apartment-by-mittal-universal-in-palam-vihar-gurgaon"
+    }
+   ],
+   "note": "Checked bigestate 3BHK 2D plan: it has NO room dimensions (labels only). Remaining URLs unverified."
+  },
+  "s5087297": {
+   "name": "DLF New Town Heights 3",
+   "plans": [
+    {
+     "url": "https://img.staticmb.com/mbimages/project/Floor-Plan-10-DLF-New-Town-Heights-3-Gurgaon-5087297_585_1024.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/dlf-new-town-heights-3-floor-plan-sector-91-gurgaon-pdpid-4d4235303837323937"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/46abb6/block1_18893/3D/11985_B1_1F13_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/dlf-new-town-heights-floor-plan-sector-91-gurgaon-npxid-r23702"
+    },
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj68JdWMV8FzwDCphmLi-V8HIQOq2YBbnwjqfl5mpvid71f78-1wdWmbZQXI0UiuWdcfYtmWcTylzbwLVy1Fkqj9i_v-fBWC1Wj1wOeNQ8pWHbsHApKu2qN4mwcLB9Trd6VsYmHINSk8Tk/s1600/DLF+NTH-+2364+sqft..jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "http://dlfnewgurgaon.blogspot.com/p/dlf-nth-sector-91.html"
+    },
+    {
+     "url": "https://housing-is-01.s3.amazonaws.com/6a32315a/980dfade6f08f8421648473bc8e46ca4/original.pdf",
+     "kind": "pdf",
+     "bhk": null,
+     "found_on": "https://housing-is-01.s3.amazonaws.com/6a32315a/980dfade6f08f8421648473bc8e46ca4/original.pdf"
+    }
+   ],
+   "note": "NTH spans sectors 86/90/91; check plans match phase 3 (Sector 91). Unverified."
+  },
+  "s5010512": {
+   "name": "Unitech The Palms",
+   "plans": [
+    {
+     "url": "https://static.squareyards.com/resources/images/gurgaon/unit-image/unitech-the-palms-apartment-3bhk-2112sqft-1.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.squareyards.com/gurgaon-residential-property/unitech-palms/364/project"
+    },
+    {
+     "url": "https://static.squareyards.com/resources/images/gurgaon/unit-image/unitech-the-palms-apartment-3bhk-1548sqft-1.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.squareyards.com/gurgaon-residential-property/unitech-palms/364/project"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/bc3593/block1_17364/3D/11999_B1_1F3_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/unitech-the-palms-floor-plan-sector-41-gurgaon-npxid-r29768"
+    }
+   ],
+   "note": "squareyards unit-image format confirmed elsewhere to print sizes. Unverified for this unit."
+  },
+  "s5065816": {
+   "name": "All Punjabi Welfare Association",
+   "plans": [],
+   "note": "nothing online (Sector 23 cooperative/RWA); not searched beyond the Sector 23 RWA check"
+  },
+  "s5023340": {
+   "name": "Bestech Park View Grand Spa",
+   "plans": [
+    {
+     "url": "https://bestechgroup.com/images/projects/residential/parkview-grand-spa/3bhk-2660.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://bestechgroup.com/park-view-grand-spa.php"
+    },
+    {
+     "url": "https://static.360realtors.com/properties/photos/36/floorplans/3185.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.360realtors.com/bestech-park-view-grand-spa-sector-81-gurgaon-uid-36"
+    },
+    {
+     "url": "https://www.realtimerealtors.in/storage/property/floorplan/Bestech-Park-View-Grand-Spa-Floor-Plan-4-BHK-S.R-F.L-%E2%80%93-3185-Sq.-Ft._1587027805.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.realtimerealtors.in/property/bestech-grand-spa"
+    },
+    {
+     "url": "https://newprojects.99acres.com/projects/bestech_group/park_view_grand_spa/maps/ynay5zoy.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/bestech-park-view-grand-spa-floor-plan-sector-81-gurgaon-npxid-r2086"
+    }
+   ],
+   "note": "Developer plan (2511px) likely legible. Unverified."
+  },
+  "s5001461": {
+   "name": "Galaxy Apartment",
+   "plans": [
+    {
+     "url": "https://www.commonfloor.com/is/a/c/655x525/public/images/apartments/original_img/zgfljr.gif",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.commonfloor.com/galaxy-apartment-gurgaon/povp-zgfljr"
+    }
+   ],
+   "note": "Old CGHS (HBH). Only a commonfloor image; may not be a dimensioned plan. Unverified."
+  },
+  "s5184759": {
+   "name": "Signature Global Proxima 2",
+   "plans": [
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20210728_090445_SG-Proxima-2-Type-D-2BHK.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.orionrealtors.com/signature-global-proxima-2-in-gurgaon.html"
+    },
+    {
+     "url": "https://haryanaaffordablehousing.com/wp-content/uploads/2020/01/2BHK-Type-1-proxima2.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://haryanaaffordablehousing.com/signature-global-proxima-2-sector-89-gurgaon/"
+    },
+    {
+     "url": "https://imgcdn.houssed.com/assets/Files/Projects/4623/BHK_Configuration/efcc089742c2d9f6c564d692877ebfac.webp",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://houssed.com/gurgaon/signature-global/signature-global-proxima-2-4623"
+    }
+   ],
+   "note": "Affordable 2BHK. Unverified."
+  },
+  "s5082578": {
+   "name": "Sweta Central Park",
+   "plans": [
+    {
+     "url": "https://housing-is-01.s3.amazonaws.com/6a32315a/280a6b825c0fb63da8bd1c16c2359296/original.pdf",
+     "kind": "pdf",
+     "bhk": null,
+     "found_on": "https://housing-is-01.s3.amazonaws.com/6a32315a/280a6b825c0fb63da8bd1c16c2359296/original.pdf"
+    }
+   ],
+   "note": "Ambiguous: magicbricks 'Sweta Central Park' (Sohna Road) seems to be the Central Park II group housing; PDF is a Sweta Estates Central Park-II price/plan sheet. Unverified."
+  },
+  "s5073985": {
+   "name": "Tulip Lemon",
+   "plans": [
+    {
+     "url": "https://www.affordablehomesgurgaon.in/wp-content/uploads/2015/02/Tulip-Lemon-2BHK-Floor-Plan-type-A.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.affordablehomesgurgaon.in/tulip-lemon-affordable-sector-69-gurgaon/"
+    },
+    {
+     "url": "https://hudaaffordablehousinggurgaon.com/wp-content/uploads/2017/12/Typ_B_14-11-29-Unit-2_3_6_7-TYP-Floor-copy.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://hudaaffordablehousinggurgaon.com/tulip-lemon-sector-69-gurgaon-ready-to-move-affordable-flats/"
+    },
+    {
+     "url": "https://im.proptiger.com/2/17109901/12/lemon-floor-plan-floor-plan-163071689.jpeg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.proptiger.com/gurgaon/sector-69/tulip-infratech-lemon-667966"
+    },
+    {
+     "url": "https://www.shikharhomedevelopers.com/admin/uploads/floorplans/913907558.webp",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.shikharhomedevelopers.com/property/tulip-lemon.php"
+    }
+   ],
+   "note": "Affordable 1/2BHK. Unverified."
+  },
+  "s5038670": {
+   "name": "Unitech The World Spa",
+   "plans": [
+    {
+     "url": "https://static.squareyards.com/resources/images/gurgaon/unit-image/unitech-the-world-spa-east-apartment-4bhk-4176sqft-1.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.squareyards.com/gurgaon-residential-property/unitech-the-world-spa/208/project"
+    },
+    {
+     "url": "https://newprojects.99acres.com/projects/unitech/unitech_the_world_spa_south/maps/gcpzslhf.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/unitech-the-world-spa-west-floor-plan-sector-30-gurgaon-npxid-r1376"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5065874": {
+   "name": "Project Huda Colony",
+   "plans": [],
+   "note": "not apartments (HUDA plotted sector)"
+  },
+  "s5446483": {
+   "name": "LID Nivasa",
+   "plans": [
+    {
+     "url": "https://www.justplan.co.in/wp-content/uploads/2026/01/lid-green-valley-2-home-floor-sector6-sohna-justplancoin-floor-plan-2-bhk.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.justplan.co.in/property/lid-nivasa-sector-6-sohna-gurgaon/"
+    },
+    {
+     "url": "https://www.justplan.co.in/wp-content/uploads/2026/01/lid-green-valley-2-home-floor-sector6-sohna-justplancoin-floor-plan-3-bhk.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.justplan.co.in/property/lid-nivasa-sector-6-sohna-gurgaon/"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/2026/03/18/Floor-Plan-2-LID-Nivasa-Gurgaon-5446483_600_800.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/lid-nivasa-sohna-sector-6-gurgaon-pdpid-4d4235343436343833"
+    }
+   ],
+   "note": "Low-rise DDJAY floors (new launch). justplan filenames say 'lid-green-valley-2' though posted on the Nivasa page. Unverified."
+  },
+  "s5393919": {
+   "name": "Signature Global City 79B 1",
+   "plans": [
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20230319_073514_SG-City-79B-3-BHK+3-toilet.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.orionrealtors.com/signature-global-city-79b-in-gurgaon.html"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/2023/03/14/Floor-Plan-25-Signature-Global-City-79B-1-Gurgaon-5393919_1200_1600.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/signature-global-city-79b-1-floor-plan-sector-79-gurgaon-pdpid-4d4235333933393139"
+    },
+    {
+     "url": "https://www.justplan.co.in/wp-content/uploads/2023/02/3BHK3TOILETSTUDY-ROOM-A.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.justplan.co.in/property/signature-global-city-79b-gurgaon/"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/7553a2/block1_107536/3D/52020_B1_1F3_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/signature-global-city-79b-floor-plan-sector-79-gurgaon-npxid-r404401"
+    }
+   ],
+   "note": "Low-rise DDJAY floors. Unverified."
+  },
+  "s5010304": {
+   "name": "Pareena Express Heights",
+   "plans": [
+    {
+     "url": "https://www.growmaxwealth.com/floorplan/955420625Pareena%20Express%20Heights%20Sector%2099%20Gurgaon%20floor%20plan%203BHK%201865%20Sqft.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.growmaxwealth.com/residential-project-pareena-express-heights-sector-99-gurgaon"
+    },
+    {
+     "url": "https://www.dwarkaexpresswayhomes.com/floorplan/222153314Express-Heights-Floor-Plan-1770.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.dwarkaexpresswayhomes.com/residential-project-pareena-express-hights-sector-99-sector-99"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/112dcd/block1_47479/3D/26448_B1_1F4_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/pareena-express-heights-floor-plan-sector-99-gurgaon-npxid-r38208"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5023125": {
+   "name": "Brisk Lumbini Terrace Homes",
+   "plans": [
+    {
+     "url": "https://static.360realtors.com/properties/photos/145/floorplans/1703.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.360realtors.com/brisk-lumbini-terrace-homes-sector-109-gurgaon-uid-145"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/e23cac/block1_25785/3D/15085_B1_1F5_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/brisk-lumbini-terrace-homes-floor-plan-sector-109-gurgaon-npxid-r37636"
+    },
+    {
+     "url": "https://static.squareyards.com/resources/images/gurgaon/unit-image/brisk-lumbini-apartment-4bhk-2637sqft-1.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.squareyards.com/resale-4-bhk-extra-room-2875-sq-ft-apartment-in-brisk-lumbini-terrace-homes/9475927"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5433409": {
+   "name": "Signature Global Cloverdale SPR",
+   "plans": [
+    {
+     "url": "https://reratracker.com/_next/image?url=https%3A%2F%2Fmedia.reratracker.com%2Fhrera%2FUkVSQS1HUkctMTk2MS0yMDI1%2F1760603442602_Signature%2520Global%2520Cloverdale%25203%2520BHK%2520U.png&w=3840&q=75",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://reratracker.com/signature-global-cloverdale-spr-in-sector-71-gurgaon-by-signature-global-rtid5164"
+    },
+    {
+     "url": "https://riseinfraventures.com/media/product/204721808_signature-global-cloverdale-spr-floor-plan-1.webp",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://riseinfraventures.com/property-detail/signature-global-cloverdale-spr"
+    },
+    {
+     "url": "https://www.triversehomes.com/assets/img/d/signature-global-cloverdale-spr-sector-71-gurgaon-fp0.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.triversehomes.com/signature-global-cloverdale-spr-sector-71-gurgaon/"
+    }
+   ],
+   "note": "reratracker image is from the HRERA filing (3BHK unit plan). Unverified."
+  },
+  "s5286295": {
+   "name": "Signature The Serenas",
+   "plans": [
+    {
+     "url": "https://signatureglobaltheserenas.co.in/images/FP/1.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://signatureglobaltheserenas.co.in/floorplan.html"
+    },
+    {
+     "url": "https://hudaaffordablehomes.com/wp-content/uploads/2017/02/Signature-Global-the-Serenas-Sector-36-Sohna-Floor-plan-type-3-2-bhk-1a.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://hudaaffordablehomes.com/signature-global-the-serenas-affordable-housing-project-in-sector-36-south-of-gurgaon/signature-global-the-serenas-sector-36-sohna-floor-plan-type-3-2-bhk-1a/"
+    },
+    {
+     "url": "https://hudaaffordablehomes.com/wp-content/uploads/2017/02/Signature-Global-the-Serenas-Sector-36-Sohna-Floor-plan-type-10-2-bhk-study.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://hudaaffordablehomes.com/signature-global-the-serenas-affordable-housing-project-in-sector-36-south-of-gurgaon/signature-global-the-serenas-sector-36-sohna-floor-plan-type-10-2-bhk-study/"
+    },
+    {
+     "url": "https://static.360realtors.com/properties/photos/3740/floorplans/2bhk.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.360realtors.com/signature-global-the-serenas-sector-36-gurgaon-uid-3740"
+    }
+   ],
+   "note": "Affordable 1/2BHK. Unverified."
+  },
+  "s5010517": {
+   "name": "Unitech Woodstock Floors",
+   "plans": [],
+   "note": "not apartments (builder floors)"
+  },
+  "s5098865": {
+   "name": "Central Park III Cerise Suites",
+   "plans": [
+    {
+     "url": "https://www.centralpark3sohna.org.in/img/property/floor/orig/9e4001dcb0_1st-3rd-4th-floor-1210-sqft.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.centralpark3sohna.org.in/project/central-park-3-cerise-suites/"
+    },
+    {
+     "url": "https://www.axiomlandbase.in/wp-content/uploads/2016/08/Central-Park-Flower-Valley-Cerise-Floors-1255-Sq.Ft-Second-floor-Plan.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.axiomlandbase.in/property/central-park-flower-valley-cerise-floors-sector-32-33-sohna-south-of-gurgaon/"
+    },
+    {
+     "url": "http://www.setriterealtors.com/pics/ind/cpfv/cerise-suites/floor7.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "http://www.setriterealtors.com/central-park-flower-valley-cerise-suites-floors-sohna-gurgaon.html"
+    }
+   ],
+   "note": "Low-rise suites/floors. Unverified."
+  },
+  "s5430095": {
+   "name": "Whiteland Aspen One",
+   "plans": [
+    {
+     "url": "https://www.whitelanddeveloper.co.in/wp-content/uploads/2023/09/Whiteland-The-Aspen-4-BHK-Floor-Plan-3680-Sqft-scaled.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.whitelanddeveloper.co.in/the-aspen-sector-76-gurgaon/"
+    },
+    {
+     "url": "https://www.propzilla.in/uploads/propertyfloorplans/image/whiteland-aspen-floor-plan.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.propzilla.in/property/whiteland-aspen-sector76-gurgaon"
+    },
+    {
+     "url": "https://whitelandproperties.co.in/whiteland-the-aspen-iconic/img/Unit%20Plan%20(3BHK%20L3).jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://whitelandproperties.co.in/whiteland-the-aspen-iconic/index.html"
+    }
+   ],
+   "note": "Plans are for Whiteland The Aspen / Aspen Iconic (Sector 76); confirm 'Aspen One' is the same project or a sibling phase. Unverified."
+  },
+  "s5392315": {
+   "name": "Signature Global City 92 Phase 2",
+   "plans": [
+    {
+     "url": "https://www.affordablehomesgurgaon.in/wp-content/uploads/2023/02/Signature-Global-City-92-2-3BHK-Floor-Plan-1024x733.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.affordablehomesgurgaon.in/property/signature-global-city-92-2-ddjay-affordable-floors-sector-92-gurgaon/"
+    },
+    {
+     "url": "https://www.axiomlandbase.in/wp-content/uploads/2024/06/signature-global-city-92-phase-2-floor-plan-3bhk-1024x732.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.axiomlandbase.in/property/signature-global-city-92-phase-3/"
+    },
+    {
+     "url": "https://files.propertywala.com/photos/99/J452851192.floor-plan-b.21798809l.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://propertywala.com/signature-global-city-92-phase-2-gurgaon"
+    }
+   ],
+   "note": "Low-rise DDJAY floors. Unverified."
+  },
+  "s5430993": {
+   "name": "Trump Residences Gurgaon",
+   "plans": [
+    {
+     "url": "https://www.luxuryroof.in/imags/3BHK-3091Sq.ft-Floor-Plan-Trump-Tower-2-Sector-69-Gurgaon.webp",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.luxuryroof.in/gurgaon/trump-tower-2-gurgaon"
+    },
+    {
+     "url": "https://www.thebrandedresidences.co.in/assets/img/trump-residences-sector-69-gurgaon/plan5.webp?v=1792787696",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.thebrandedresidences.co.in/trump-residences-sector-69-gurgaon/"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/36c939/block1_126763/3D/60105_B1_1F1_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/trump-residences-gurgaon-floor-plan-sector-69-gurgaon-npxid-r442316"
+    }
+   ],
+   "note": "Under construction (Trump Towers 2). Unverified."
+  },
+  "s5023347": {
+   "name": "Park View City 1",
+   "plans": [
+    {
+     "url": "https://newprojects.99acres.com/projects/bestech_group/park_view_city/maps/5ui5sj6t.jpeg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/bestech-park-view-city-floor-plan-sector-48-gurgaon-npxid-r26854"
+    },
+    {
+     "url": "https://cdn.housvt.com/production/media/sellers/67e3999484b0dcdfa5681a30/properties/67e39db64d9c72f0e1c50b76/floorplans/76e03c89-8d8b-4d5d-828c-d70c1297973b?w=768",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://housivity.com/buy-bestech-park-view-city-1-by-bestech-group-in-sector-48-gurgaon-pid-67e39db64d9c72f0e1c50b76"
+    },
+    {
+     "url": "https://big-estate-listing-assets.s3.ap-south-1.amazonaws.com/images/projects/PROP-GGN-899/floor_plans/3d/4_bhk_apartment_3062_sq_ft_fs-large.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.bigestate.io/in/project/bestech-park-view-city-1-by-bestech-india-pvt-ltd-in-sector-48-sohna-road-gurgaon"
+    }
+   ],
+   "note": "Developer page bestechgroup.com/park-view-city-1.php has a floor plan section (not scraped). bigestate plans may lack dimensions. Unverified."
+  },
+  "s5285183": {
+   "name": "Emaar MGF Palm Terraces Select",
+   "plans": [
+    {
+     "url": "https://www.luxuryroof.in/imags/4BHK-2410Sq.Ft-Floor-Plan-Emaar-Palm-Terraces-Select-Sector-66-Gurgaon.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.luxuryroof.in/gurgaon/emaar-palm-terraces-select"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/2025/07/05/Floor-Plan-25-Palm-Terraces-Select-Gurgaon-5001836_724_1075.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/emaar-palm-terraces-select-sector-66-gurgaon-pdpid-4d4235303031383336"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/2025/07/05/Floor-Plan-24-Palm-Terraces-Select-Gurgaon-5001836_705_1035.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/emaar-palm-terraces-select-sector-66-gurgaon-pdpid-4d4235303031383336"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5320547": {
+   "name": "HUDA Authority Plots",
+   "plans": [],
+   "note": "not apartments (HSVP plots)"
+  },
+  "s5010447": {
+   "name": "Suncity Township",
+   "plans": [],
+   "note": "not apartments (plotted township)"
+  },
+  "s5329847": {
+   "name": "JMS The Nation",
+   "plans": [],
+   "note": "not apartments (DDJAY plotted colony with S+4 floors)"
+  },
+  "s5419853": {
+   "name": "Signature Global DE LUXE DXP",
+   "plans": [
+    {
+     "url": "https://cms.dcjain.com/wp-content/uploads/2025/05/3bhk-Floor-Plan-1.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://dcjain.com/properties/gurgaon/dwarka-expressway/signature-global-de-luxe-dxp-25523/"
+    },
+    {
+     "url": "https://www.growmaxwealth.com/floorplan/18463912753%20BHK.png",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.growmaxwealth.com/residential-project-signature-global-deluxe-dxp-sector-37d"
+    },
+    {
+     "url": "https://image.investmango.com/images/img/signature-global-deluxe-dxp/37d-gurugram-floor-plan-4.5bhk-4500-sqft.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.investmango.com/signature-global-de-luxe-dxp-sector-37d-gurugram"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/2025/07/02/Floor-Plan-18-DE-LUXE-DXP-Gurgaon-5419853_490_784.JPG",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/signature-global-de-luxe-dxp-sector-37d-gurgaon-pdpid-4d4235343139383533"
+    }
+   ],
+   "note": "Under construction high-rise. Unverified."
+  },
+  "s5423179": {
+   "name": "The Legacy Phase 1",
+   "plans": [
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20241205_054956_SG-the-legacy-3BHK%20-%20-2800-Sq.Ft.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.orionrealtors.com/silverglades-the-legacy-in-gurgaon.html"
+    },
+    {
+     "url": "https://www.realtimerealtors.in/storage/property/floorplan/Silverglades63-4bhk-apartments_1716806155.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.realtimerealtors.in/property/silverglades-legacy-sector-63a-gurgaon"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/36983a/block2_126191/3D/57485_B2_1F1_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/silverglades-the-legacy-floor-plan-sector-63a-gurgaon-npxid-r431559"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5079273": {
+   "name": "Saksham Welfare Association",
+   "plans": [],
+   "note": "not apartments (independent houses per 99acres listings; Sector 22 society)"
+  },
+  "s5335151": {
+   "name": "Birla Navya Anaika",
+   "plans": [
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20230318_101823_Birla-Anaika-4-BHK.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.orionrealtors.com/birla-navya-anaika-in-gurgaon.html"
+    },
+    {
+     "url": "https://static.360realtors.com/properties/photos/5079/floorplans/1723280243_4floorplansimage.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.360realtors.com/birla-navya-anaika-sector-63a-gurgaon-uid-5079"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/2024/07/02/Floor-Plan-1-Birla-Navya-Anaika-Gurgaon-5335151_546_1110.JPG",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/birla-navya-anaika-floor-plan-sector-63a-gurgaon-pdpid-4d4235333335313531"
+    }
+   ],
+   "note": "Low-rise independent floors in gated community. Unverified."
+  },
+  "s5285937": {
+   "name": "Signature Global Solera",
+   "plans": [
+    {
+     "url": "https://hudaaffordablehousinggurgaon.com/wp-content/uploads/2017/12/sol-unit4big.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://hudaaffordablehousinggurgaon.com/signature-global-solera-sector-107-gurgaon-phase-1-ready-to-move/"
+    },
+    {
+     "url": "https://im.proptiger.com/2/17249566/12/solera-floor-plan-floor-plan-178990306.jpeg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.proptiger.com/gurgaon/sector-107/signature-global-builders-solera-664983"
+    },
+    {
+     "url": "https://hudaaffordablehomes.com/wp-content/uploads/2017/03/1..jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://hudaaffordablehomes.com/signature-global-solera-affordable-housing-sector-107-gurgaon/"
+    }
+   ],
+   "note": "Affordable 1/2BHK. Unverified."
+  },
+  "s5000449": {
+   "name": "Raheja Atlantis",
+   "plans": [
+    {
+     "url": "https://cms.dcjain.com/wp-content/uploads/2022/07/3BHK-3T-SQ-2168.43-SqFt.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://dcjain.com/properties/gurgaon/nh-8/raheja-atlantis-18412/"
+    },
+    {
+     "url": "https://im.proptiger.com/2/61653/12/raheja-raheja-atlantis-floor-plan-4bhk-5t-2943-sq-ft-222156.jpeg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.proptiger.com/gurgaon/sector-31/raheja-developer-atlantis-507129"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/0971e8/block1_16825/3D/11882_B1_1F1_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/raheja-atlantis-floor-plan-sector-31-gurgaon-npxid-r12346"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/Floor-Plan-58-Raheja-Atlantis-Gurgaon-5000449_912_1000.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/raheja-atlantis-sector-31-gurgaon-pdpid-4d4235303030343439"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5285067": {
+   "name": "Bestech Park View City 2",
+   "plans": [
+    {
+     "url": "https://cms.dcjain.com/wp-content/uploads/2023/03/3BHK3TSQStudy-2153-SqFt.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://dcjain.com/properties/gurgaon/gurgaon/bestech-parkview-city-2-19316/"
+    },
+    {
+     "url": "https://static.squareyards.com/resources/images/gurgaon/unit-image/bestech-park-view-city-2-apartment-4bhk-2639sqft-1.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.squareyards.com/rental-3-5-bhk-2200-sq-ft-apartment-in-bestech-park-view-city-2/10719282"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/2619b8/block1_7237/3D/7367_B1_1F5_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/bestech-park-view-city-2-floor-plan-sector-49-gurgaon-npxid-r12230"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5036692": {
+   "name": "DLF Silver Oak",
+   "plans": [
+    {
+     "url": "https://projectcdn.99acres.com/project_data/fe60fa/block1_16819/3D/11874_B1_1F1_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/dlf-silver-oaks-floor-plan-dlf-phase-1-gurgaon-npxid-r27716"
+    },
+    {
+     "url": "https://big-estate-listing-assets.s3.ap-south-1.amazonaws.com/images/projects/PROP-GGN-952/floor_plans/3d/4_bhk_apartment_2191_sq_ft_fs-large.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.bigestate.io/in/project/dlf-silver-oaks-by-dlf-in-dlf-phase-1-golf-course-road-gurgaon"
+    }
+   ],
+   "note": "Old DLF project; 99acres 3D usually has a dimension table, bigestate may not. Unverified."
+  },
+  "s5086571": {
+   "name": "Suncity Avenue 102",
+   "plans": [
+    {
+     "url": "https://www.dwarkaexpresswayhomes.com/floorplan/1375477245suncity-avenue-102-floorplan532%20sq%20.ft..jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.dwarkaexpresswayhomes.com/residential-project-suncity-avenue-102"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/4fbd4e/block1_13305/3D/10052_B1_1F1_3D.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.99acres.com/suncity-avenue-102-floor-plan-sector-102-gurgaon-npxid-r256209"
+    },
+    {
+     "url": "https://im.proptiger.com/2/9258000/12/38232357.jpeg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.proptiger.com/gurgaon/sector-102/suncity-projects-avenue-102-676342"
+    }
+   ],
+   "note": "Affordable 2BHK. Unverified."
+  },
+  "s5421265": {
+   "name": "CBS Luxury Builder Floors",
+   "plans": [],
+   "note": "not apartments (builder floors)"
+  },
+  "s5000037": {
+   "name": "Vatika Premium Floors",
+   "plans": [],
+   "note": "not apartments (builder floors in Vatika India Next)"
+  },
+  "s5285989": {
+   "name": "Uppal Southend Plots",
+   "plans": [],
+   "note": "not apartments (plots)"
+  },
+  "s5285679": {
+   "name": "The Residences (Unitech, Sector 33)",
+   "plans": [
+    {
+     "url": "https://www.unitechgroup.com/pdfs/the-residences_brochure.pdf",
+     "kind": "pdf",
+     "bhk": null,
+     "found_on": "https://www.unitechgroup.com/pdfs/the-residences_brochure.pdf"
+    },
+    {
+     "url": "https://static.squareyards.com/resources/images/gurgaon/unit-image/unitech-the-residences-sector-33-apartment-1-bhk-825sqft-20230820190854.jpg",
+     "kind": "image",
+     "bhk": 1,
+     "found_on": "https://www.squareyards.com/gurgaon-residential-property/unitech-the-residences-sector-33/21211/project"
+    },
+    {
+     "url": "https://static.squareyards.com/resources/images/gurgaon/unit-image/unitech-the-residences-sector-33-apartment-2-bhk-1060sqft-20230920190910.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.squareyards.com/rental-3-5-bhk-servant-room-1550-sq-ft-apartment-in-unitech-the-residences-sector-33/10496278"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/Floor-Plan-8-Unitech-Residences-Gurgaon-5000909_569_566.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/unitech-residences-floor-plan-sector-33-gurgaon-pdpid-4d4235303030393039"
+    }
+   ],
+   "note": "Developer brochure PDF on unitechgroup.com. Unverified."
+  },
+  "s5029870": {
+   "name": "Ambience Lagoon",
+   "plans": [
+    {
+     "url": "https://www.propertyxpo.com/ambience-lagoon/assets/images/plans/3.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.propertyxpo.com/ambience-lagoon/"
+    },
+    {
+     "url": "https://im.proptiger.com/2/5066301/12/ambience-lagoon-floor-plan-5bhk-5t-5100-sq-ft-595969.jpeg",
+     "kind": "image",
+     "bhk": 5,
+     "found_on": "https://www.proptiger.com/gurgaon/sector-24/ambience-group-lagoon-504955"
+    },
+    {
+     "url": "https://im.proptiger.com/2/5066300/12/lagoon-floor-plan-floor-plan-104076130.jpeg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.proptiger.com/gurgaon/sector-24/ambience-group-lagoon-504955"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/Floor-Plan-15-Ambience-Lagoon-Gurgaon-5029870_426_1024.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/ambience-lagoon-floor-plan-sector-24-gurgaon-pdpid-4d4235303239383730"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5429985": {
+   "name": "Birla Arika",
+   "plans": [
+    {
+     "url": "https://www.luxuryroof.in/imags/4BHK-Type5-Floor-Plan-Birla-Arika-Sector-31-Gurugram-Haryana.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.luxuryroof.in/gurgaon/birla-arika"
+    },
+    {
+     "url": "https://riseinfraventures.com/media/product/802821718_F1birla-arika.webp",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://riseinfraventures.com/property-detail/birla-arika-sector-31-gurgaon"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/59340/block1_124334/3D/59340_B1_1F3_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/birla-arika-floor-plan-sector-31-gurgaon-npxid-r439039"
+    }
+   ],
+   "note": "Under construction 3/4BHK. Unverified."
+  },
+  "s5029954": {
+   "name": "Conscient One",
+   "plans": [],
+   "note": "commercial (retail/office project), not apartments"
+  },
+  "s5024060": {
+   "name": "AIPL The Peaceful Homes",
+   "plans": [
+    {
+     "url": "https://static.360realtors.com/properties/photos/259/floorplans/1565.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.360realtors.com/aipl-the-peaceful-homes-sector-70a-gurgaon-uid-259"
+    },
+    {
+     "url": "https://static.360realtors.com/properties/photos/259/floorplans/2150.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.360realtors.com/aipl-the-peaceful-homes-sector-70a-gurgaon-uid-259"
+    },
+    {
+     "url": "https://www.luxuryroof.in/imags/3BHK-Floor-Plan-AIPL-The-Peaceful-Homes-Sector-70A-Gurugram.webp",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.luxuryroof.in/gurgaon/aipl-the-peaceful-homes"
+    },
+    {
+     "url": "https://newprojects.99acres.com/projects/aipl_homes/the_peaceful_homes/maps/0duosfsh.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/aipl-the-peaceful-homes-floor-plan-sector-70a-gurgaon-npxid-r3480"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5086910": {
+   "name": "Unitech Uniworld City",
+   "plans": [
+    {
+     "url": "https://projectcdn.99acres.com/project_data/a7db91/block1_28725/3D/13582_B1_1F2_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/unitech-uniworld-city-floor-plan-sector-30-gurgaon-npxid-r12194"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/Floor-Plan-5-Unitech-Uniworld-City-Gurgaon-5086910_519_1024.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/unitech-uniworld-city-floor-plan-sector-30-gurgaon-pdpid-4d4235303836393130"
+    }
+   ],
+   "note": "Uniworld City has East/West/South blocks. Unverified."
+  },
+  "s5010341": {
+   "name": "Raheja Vedaanta",
+   "plans": [
+    {
+     "url": "https://raheja.com/images/raheja-vedaanta/floor-plan/vedaantaf-gf-big.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://raheja.com/raheja-vedaanta.html"
+    },
+    {
+     "url": "https://dcjain.com/wp-content/uploads/2022/06/3BHK-3T-1790-SqFt.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://dcjain.com/properties/raheja-vedaanta/"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/2025/08/26/Floor-Plan-88-Raheja-Vedaanta-Gurgaon-5010341_1838_1388.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/raheja-vedaanta-floor-plan-sector-108-gurgaon-pdpid-4d4235303130333431"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/99b810/block1_24223/3D/14443_B1_1F4_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/raheja-vedaanta-floor-plan-sector-108-gurgaon-npxid-r26"
+    }
+   ],
+   "note": "Low-rise independent floors per developer. Unverified."
+  },
+  "s5188470": {
+   "name": "Signature Global Golf Greens 79",
+   "plans": [
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20210728_111933_Type-B-1-BHK.jpg",
+     "kind": "image",
+     "bhk": 1,
+     "found_on": "https://www.orionrealtors.com/signature-golf-greens-in-gurgaon.html"
+    },
+    {
+     "url": "https://investormart.s3.ap-south-1.amazonaws.com/floorplan/1537-17595829966559-Signature-Global-Golf-Green-Floor-Plan-633-sqft.webp",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.investormart.co.in/Project-Signature-Global-Golf-Greens.php"
+    },
+    {
+     "url": "https://investormart.s3.ap-south-1.amazonaws.com/floorplan/1537-17595829581620-Signature-Global-Golf-Green-Floor-Plan-399-sqft.webp",
+     "kind": "image",
+     "bhk": 1,
+     "found_on": "https://www.investormart.co.in/Project-Signature-Global-Golf-Greens.php"
+    }
+   ],
+   "note": "Affordable 1/2BHK. Unverified."
+  },
+  "s5437103": {
+   "name": "Godrej Sora",
+   "plans": [
+    {
+     "url": "https://gplwebsitecdnblob.blob.core.windows.net/godrej-cdn/Images/tower-1-unit-layout-4-bhk-type-1-cmff5uhj5000jh1ph8oia0ajh.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.godrejproperties.com/gurugram/residential/godrej-sora"
+    },
+    {
+     "url": "https://inframantra.blr1.cdn.digitaloceanspaces.com/floorPlan/godrejsora/Godrej%20Sora%203%20bhk%20floor%20Plan%20.png",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://inframantra.com/property/godrej-sora-sector-53-gurgaon"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/61078/block1_128311/3D/61078_B1_1F1_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/godrej-sora-floor-plan-sector-53-gurgaon-npxid-r446528"
+    }
+   ],
+   "note": "Developer unit layout image. Unverified."
+  },
+  "s5019754": {
+   "name": "Paras Irene",
+   "plans": [
+    {
+     "url": "https://static.360realtors.com/properties/photos/150/floorplans/1830.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.360realtors.com/paras-india-irene-sector-70a-gurgaon-uid-150"
+    },
+    {
+     "url": "https://www.addressofchoice.com/aoc_assets/floorplan/64231/1633699385_3bhk1.jpeg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.addressofchoice.com/paras-irene-sector-70a-gurgaon/3-bhk-1830sqft-apartment-p107715"
+    },
+    {
+     "url": "https://sreindiarealty.com/uploads/floor/paras-irene-70a-gurgaon-floor-plan.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://sreindiarealty.com/paras-irene-70a-gurgaon"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5028363": {
+   "name": "JMD Gardens",
+   "plans": [
+    {
+     "url": "https://static.squareyards.com/resources/images/gurgaon/unit-image/jmd-gardens-penthouse-4bhk-sq-4300sqft-1.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.squareyards.com/gurgaon-residential-property/jmd-gardens/288/project"
+    },
+    {
+     "url": "https://newprojects.99acres.com/projects/jmd_limited_/jmd_gardens/maps/j716mhy9.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/jmd-gardens-floor-plan-sector-33-gurgaon-npxid-r6406"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/2025/06/26/Floor-Plan-30-JMD-Gardens-Gurgaon-5028363_667_1026.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/jmd-gardens-floor-plan-sector-33-gurgaon-pdpid-4d4235303238333633"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5421095": {
+   "name": "NKV Golden Avenue",
+   "plans": [
+    {
+     "url": "https://www.justplan.co.in/wp-content/uploads/2025/09/trehan-floors-justplancoin-typeAB-floor-plan.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.justplan.co.in/property/trehan-luxury-floors-sector-35-sohna-nkv-golden-avenue/"
+    },
+    {
+     "url": "https://akvmrealty.com/asset/project_img/trehan-nkv-golden-avenue/floor.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://akvmrealty.com/property/trehan-nkv-golden-avenue"
+    },
+    {
+     "url": "https://housing-is-01.s3.amazonaws.com/6a32315a/8cadb44fcd08ddfc83ee5d2cd6259d7b/original.pdf",
+     "kind": "pdf",
+     "bhk": null,
+     "found_on": "https://housing-is-01.s3.amazonaws.com/6a32315a/8cadb44fcd08ddfc83ee5d2cd6259d7b/original.pdf"
+    }
+   ],
+   "note": "DDJAY plotted colony; units are Trehan builder floors (3BHK). Treat as builder floors. Unverified."
+  },
+  "s5285889": {
+   "name": "DLF The Icon",
+   "plans": [
+    {
+     "url": "https://cms.dcjain.com/wp-content/uploads/2023/11/4BHK4TSQ-2575-SqFt-jpg.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://dcjain.com/properties/gurgaon/golf-course-road/dlf-the-icon-20284/"
+    },
+    {
+     "url": "https://www.luxuryroof.in/imags/4BHK-2750Sq.ft-Floor-plan-DLF-The-Icon-DLF-Phase-5-Gurgaon.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.luxuryroof.in/gurgaon/dlf-the-icon"
+    }
+   ],
+   "note": "Same project as s5001038 'DLF Icon' (duplicate entry). Unverified."
+  },
+  "s5017159": {
+   "name": "Tulip Ivory",
+   "plans": [
+    {
+     "url": "https://static.360realtors.com/properties/photos/239/floorplans/2400.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.360realtors.com/tulip-ivory-sector-70-gurgaon-uid-239"
+    },
+    {
+     "url": "https://www.addressofchoice.com/aoc_assets/floorplan/42254/42254__a.jpeg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.addressofchoice.com/tulip-ivory-sohna-road-sector-70-gurgaon/4-bhk-2400sqft-apartment-p42140"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/c79c7d/block1_21507/3D/10705_B1_1F1_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/tulip-ivory-floor-plan-sector-70-gurgaon-npxid-r35152"
+    }
+   ],
+   "note": "Mix of low-rise apartments and villas. Unverified."
+  },
+  "s5029996": {
+   "name": "Dhoot Time Residency",
+   "plans": [
+    {
+     "url": "https://cms.dcjain.com/wp-content/uploads/2022/05/4BHK4TStudy-2288-2297-SqFt.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://dcjain.com/properties/gurgaon/golf-course-extension-road/dhoot-time-residency-17980/"
+    },
+    {
+     "url": "https://www.luxuryroof.in/imags/2BHK-1208Sq.ft-Floor-Plan-Dhoot-Time-Residency-Sector-63-Gurgaon.webp",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.luxuryroof.in/gurgaon/dhoot-time-residency"
+    },
+    {
+     "url": "https://static.360realtors.com/properties/photos/603/floorplans/1708.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.360realtors.com/dhoot-time-residency-sector-63-gurgaon-uid-603"
+    },
+    {
+     "url": "https://img.staticmb.com/mbimages/project/Floor-Plan-73-Dhoot-Time-Residency-Gurgaon-5029996_739_1024.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.magicbricks.com/dhoot-time-residency-sector-63-gurgaon-pdpid-4d4235303239393936"
+    }
+   ],
+   "note": "Confirmed: Premium Tower A cluster plan (4BHK units 2288-2297) prints every room in ft-in; note says dimensions include walls."
+  },
+  "s5030895": {
+   "name": "Ansal Harmony Homes",
+   "plans": [
+    {
+     "url": "https://projectcdn.99acres.com/project_data/e2e379/block1_31285/3D/16904_B1_1F1_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/ansal-harmony-homes-floor-plan-sushant-lok-phase-3-gurgaon-npxid-r26938"
+    },
+    {
+     "url": "https://im.proptiger.com/2/17870602/12/harmony-homes-floor-plan-floor-plan-178869210.jpeg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.proptiger.com/gurgaon/sector-57/ansal-buildwell-harmony-homes-641989"
+    }
+   ],
+   "note": "Low-rise (4-floor) apartments. Unverified."
+  },
+  "s5001472": {
+   "name": "Jalvayu Tower",
+   "plans": [
+    {
+     "url": "https://projectcdn.99acres.com/project_data/20501/block1_60587/3D/20501_B1_1F2_3D.jpg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.99acres.com/jalvayu-towers-floor-plan-sector-56-gurgaon-npxid-r12200"
+    }
+   ],
+   "note": "Old AWHO-type society; only a 99acres 3D plan (usually has dimension table). Unverified."
+  },
+  "s5035155": {
+   "name": "Unitech Uniworld Gardens",
+   "plans": [
+    {
+     "url": "https://static.squareyards.com/resources/images/gurgaon/unit-image/unitech-world-garden-apartment-3bhk-sq-tyipical-2035sqft-1.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.squareyards.com/resale-3-5-bhk-pooja-room-2087-sq-ft-apartment-in-unitech-uniworld-gardens/9625194"
+    },
+    {
+     "url": "https://static.squareyards.com/resources/images/gurgaon/unit-image/unitech-uniworld-gardens-apartment-4bhk-sq-2300sqft-1.jpg",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.squareyards.com/resale-3-5-bhk-pooja-room-2087-sq-ft-apartment-in-unitech-uniworld-gardens/9625194"
+    },
+    {
+     "url": "https://projectcdn.99acres.com/project_data/2ef037/block1_1843/3D/5257_B1_1F1_3D.jpg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/unitech-uniworld-gardens-2-floor-plan-sector-47-gurgaon-npxid-r458"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5019898": {
+   "name": "Orris Aster Court Premier",
+   "plans": [
+    {
+     "url": "https://www.orrisgroup.in/orris-astercourtpremier/assets/images/plans/1.webp",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.orrisgroup.in/orris-astercourtpremier/"
+    },
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20190905_121410_Aster%20Court%20Premier%20-%203%20BHK%20+S.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.orionrealtors.com/orris-aster-court-premier-sector-85-gurgaon-in-gurgaon.html"
+    },
+    {
+     "url": "https://static.360realtors.com/properties/photos/155/floorplans/1970.jpg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.360realtors.com/orris-aster-court-premier-sector-85-gurgaon-uid-155"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5010418": {
+   "name": "SBTL Caladium",
+   "plans": [
+    {
+     "url": "https://newprojects.99acres.com/projects/solutrean_building_technologies_ltd/solutrean_caladium/maps/sta6pdvg.png",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.99acres.com/sbtl-caladium-floor-plan-sector-109-gurgaon-npxid-r38312"
+    },
+    {
+     "url": "https://ithumworld.com/wp-content/uploads/2023/05/Floor-Plan-02.jpeg",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://ithumworld.com/caladium/"
+    },
+    {
+     "url": "https://gurgaonpropertyjunction.com/floorplan/645279874%20BHK%202415-3055%20sqft.png",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://gurgaonpropertyjunction.com/residential-project-sbtl-caladium"
+    }
+   ],
+   "note": "Unverified."
+  },
+  "s5094309": {
+   "name": "DLF City Plot Phase 2",
+   "plans": [],
+   "note": "not apartments (plotted colony; independent houses/builder floors)"
+  },
+  "s5190247": {
+   "name": "GLS South Avenue",
+   "plans": [
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20210731_091915_gls_2bhk.jpeg",
+     "kind": "image",
+     "bhk": 2,
+     "found_on": "https://www.orionrealtors.com/gls-south-avenue-in-gurgaon.html"
+    },
+    {
+     "url": "https://www.orionrealtors.com/media_image/floorplan_image/20210731_092020_645%20Sq.Ft.gls-3bhk.jpeg",
+     "kind": "image",
+     "bhk": 3,
+     "found_on": "https://www.orionrealtors.com/gls-south-avenue-in-gurgaon.html"
+    }
+   ],
+   "note": "Affordable 2/3BHK. orionrealtors affordable-plan format confirmed elsewhere to print metre sizes. Unverified for this unit."
+  },
+  "s5285215": {
+   "name": "DLF The Aralias",
+   "plans": [
+    {
+     "url": "https://www.luxuryroof.in/imags/4BHK-5600Sq.ft-Floor-Plan-DLF-Aralias-Golf-Course-Road-Gurgaon.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://www.luxuryroof.in/gurgaon/dlf-the-aralias"
+    },
+    {
+     "url": "https://bestluxuryresidences.in/wp-content/uploads/2025/10/DLF-The-Aralias-Floor-Plan.webp",
+     "kind": "image",
+     "bhk": 4,
+     "found_on": "https://bestluxuryresidences.in/dlf-the-aralias-sector-42-gurgaon/"
+    },
+    {
+     "url": "https://www.propzilla.in/uploads/propertyfloorplans/image/dlf-aralias-3bhk-type1-floor-plan.webp",
+     "kind": "image",
+     "bhk": null,
+     "found_on": "https://www.propzilla.in/property/dlf-the-aralias-sector-42-gurgaon"
+    }
+   ],
+   "note": "luxuryroof format reliably prints ft-in. Unverified for this unit."
+  }
+ }
+}

@@ -1,0 +1,12 @@
+pipeline/cache/
+pipeline/cache_*.log
+pipeline/out/*/osm_buildings.geojson
+node_modules/
+web/dist/
+.DS_Store
+__pycache__/
+.pytest_cache/
+.gstack/
+
+pipeline/cache_*.log
+data/verified/*-ai.json.bak
