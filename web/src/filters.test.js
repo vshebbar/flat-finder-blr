@@ -138,3 +138,39 @@ describe('flagged prices', () => {
     expect(priceFor(s, 'rent', [3])).toMatchObject({ value: 90100, estimated: true });
   });
 });
+
+describe('multi-BHK rent range, areas, and map bounds', () => {
+  const multi = soc({
+    name: 'Salarpuria Greenage',
+    locality: 'Bommanahalli, HSR Layout',
+    lat: 12.905,
+    lng: 77.630,
+    prices: {
+      2: { rent: { median: 38000, n: 12 }, buy: { median: 1.4e7, n: 10 } },
+      3: { rent: { median: 62000, n: 18 }, buy: { median: 2.2e7, n: 15 } },
+      4: { rent: { median: 95000, n: 4 }, buy: { median: 3.4e7, n: 6 } },
+    },
+  });
+
+  it('matches if any BHK clears the rent range, not just the cheapest BHK', () => {
+    expect(matchSociety(multi, crit({ mode: 'rent', minRent: 50000, maxRent: 80000 }))).toBe('match');
+    expect(matchSociety(multi, crit({ mode: 'rent', minRent: 100000, maxRent: 150000 }))).toBe('no');
+    expect(priceFor(multi, 'rent', [], { min: 50000, max: 80000 })).toMatchObject({ value: 62000, bhk: 3 });
+  });
+
+  it('filters by selected area names and Bengaluru aliases', () => {
+    const hsr = soc({ locality: 'HSR Layout Sector 2' });
+    const ecity = soc({ locality: 'Electronic City Phase 1' });
+    expect(matchSociety(hsr, crit({ areas: ['HSR Layout'] }))).toBe('match');
+    expect(matchSociety(ecity, crit({ areas: ['HSR Layout'] }))).toBe('no');
+    expect(matchSociety(ecity, crit({ areas: ['HSR Layout', 'Electronic City'] }))).toBe('match');
+    expect(matchSociety(ecity, crit({ q: 'ecity' }))).toBe('match');
+    expect(matchSociety(hsr, crit({ q: 'h s r' }))).toBe('match');
+  });
+
+  it('filters by visible map bounds', () => {
+    expect(matchSociety(multi, crit({ bounds: { west: 77.60, south: 12.88, east: 77.66, north: 12.94 } }))).toBe('match');
+    expect(matchSociety(multi, crit({ bounds: { west: 77.70, south: 12.95, east: 77.78, north: 13.02 } }))).toBe('no');
+  });
+});
+

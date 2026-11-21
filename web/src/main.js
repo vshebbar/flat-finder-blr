@@ -1,7 +1,7 @@
 import './style.css';
 import maplibregl from 'maplibre-gl';
 import { addBaseLayers, addSocietyLayers, BASE_MODES, createMap, OVERVIEW, setBaseMode, setHighlights, setSelected, setStates, startPulse } from './map.js';
-import { searchSocieties } from './search.js';
+import { buildAreaIndex, normText, searchAreas, searchSocieties } from './search.js';
 import { createFeed } from './feed.js';
 import { AMENITY_KEYS, DEFAULT_CRITERIA, NEAR, RANK, feetLabel, formatINR, matchSociety, matchUnit, priceFor, roomPasses } from './filters.js';
 
@@ -30,7 +30,7 @@ let crit = structuredClone(DEFAULT_CRITERIA);
 let baseMode = BASE_MODES.includes(params.get('map')) ? params.get('map') : 'streets';
 let roomMode = 'off', areaUnit = 'sqft', sortBy = 'best';
 let data, byId, map, feed, selected = null, states = new Map(), tourTimer = null, cityId = 'bangalore', details = null;
-let myList = [], allAmenities = [];
+let myList = [], allAmenities = [], allAreas = [], mapReady = false;
 const highlights = { glow: true, bounds: true, labels: true, ...store.get('ff-highlights', {}) };
 
 async function boot() {
@@ -51,6 +51,7 @@ async function boot() {
   const freq = new Map();
   for (const s of city.societies) for (const a of s.amenities) freq.set(a, (freq.get(a) || 0) + 1);
   allAmenities = [...freq].sort((a, b) => b[1] - a[1]).map(([a, n]) => ({ name: a, n }));
+  allAreas = buildAreaIndex(city.societies);
 
   myList = params.get('list') ? params.get('list').split(',').filter((id) => byId.has(id)) : store.get(`ff-list-${cityId}`, []).filter((id) => byId.has(id));
   const c = city.counts, m = city.price_model || {}, rated = city.societies.filter((s) => s.rating).length;
@@ -69,12 +70,12 @@ async function boot() {
   buildOnboarding();
   buildMobile();
   hintTilt();
+  applyFilters();
   try {
     map = createMap('map', { mobile });
     window.__map = map; // handy for debugging in the console
   } catch {
     $('note').textContent = 'Your browser could not start WebGL, so the 3D map is off. Filters and results still work.';
-    applyFilters();
     feed.ambient();
     return;
   }
@@ -86,6 +87,8 @@ async function boot() {
     setBaseMode(map, baseMode);
     setHighlights(map, highlights);
     startPulse(map);
+    mapReady = true;
+    map.on('moveend', syncVisibleBounds);
     // any hand on the map stops a running tour
     for (const ev of ['dragstart', 'wheel', 'touchstart']) map.on(ev, (e) => { if (e.originalEvent) stopTour(); });
     for (const l of ['bld', 'site-fill', 'glow']) {
@@ -102,7 +105,7 @@ function intro() {
   if (['divy', 'blr', 'bangalore', 'bengaluru'].includes(params.get('preset'))) useCriteria(DIVY);
   if (params.get('open')) {
     map.jumpTo(OVERVIEW);
-    applyFilters();
+    applyFilters(false, true);
     setTimeout(() => openSociety(params.get('open')), 300);
     return;
   }
@@ -169,7 +172,77 @@ function useCriteria(c) {
 
 let redrawFilters = () => {};
 let sizeSlider, priceSlider;
+
+function fitSocieties(hits) {
+  if (!map || !hits.length) return;
+  if (hits.length === 1) {
+    map.flyTo({ center: [hits[0].lng, hits[0].lat], zoom: mobile ? 14.5 : 15, pitch: is3d ? 50 : 0, bearing: 0, duration: 1400, essential: true });
+    return;
+  }
+  const b = hits.reduce((bb, s) => bb.extend([s.lng, s.lat]), new maplibregl.LngLatBounds([hits[0].lng, hits[0].lat], [hits[0].lng, hits[0].lat]));
+  map.fitBounds(b, { padding: { top: 80, bottom: 80, left: mobile ? 40 : 380, right: mobile ? 40 : 460 }, maxZoom: 14.8, bearing: 0 });
+}
+
+function societiesInAreas(areas) {
+  return data.societies.filter((s) => {
+    const loc = normText(s.locality);
+    return areas.some((a) => {
+      const words = normText(a).split(' ').filter(Boolean);
+      return words.length && words.every((w) => loc.includes(w));
+    });
+  });
+}
+
+function toggleArea(name) {
+  stopTour();
+  toggle(crit.areas, name);
+  if (crit.areas.length && crit.bounds) {
+    crit.bounds = null;
+    $('f-inview').checked = false;
+  }
+  redrawFilters();
+  applyFilters();
+  if (crit.areas.length) {
+    const hits = data.societies.filter((s) => states.get(s.id) !== 'no');
+    fitSocieties(hits.length ? hits : societiesInAreas(crit.areas));
+  }
+}
+
+function selectArea(name) {
+  stopTour();
+  if (!crit.areas.includes(name)) crit.areas.push(name);
+  if (crit.bounds) {
+    crit.bounds = null;
+    $('f-inview').checked = false;
+  }
+  crit.q = '';
+  $('q').value = '';
+  $('q-pill').hidden = true;
+  redrawFilters();
+  applyFilters();
+  const hits = data.societies.filter((s) => states.get(s.id) !== 'no');
+  fitSocieties(hits.length ? hits : societiesInAreas(crit.areas));
+}
+
+function syncVisibleBounds() {
+  if (!$('f-inview')?.checked || !map || !mapReady) return;
+  const b = map.getBounds();
+  crit.bounds = { west: b.getWest(), south: b.getSouth(), east: b.getEast(), north: b.getNorth() };
+  redrawFilters();
+  applyFilters();
+}
+
 function buildFilters() {
+  const areaList = () => {
+    const q = $('area-q').value.trim();
+    const list = q ? searchAreas(allAreas, q, 60) : allAreas.slice(0, 80);
+    $('area-list').replaceChildren(...list.map((a) => {
+      const l = document.createElement('label');
+      l.innerHTML = `<input type="checkbox" ${crit.areas.includes(a.name) ? 'checked' : ''}> ${esc(a.name)} <small>${a.n}</small>`;
+      l.querySelector('input').onchange = () => toggleArea(a.name);
+      return l;
+    }));
+  };
   const amenList = () => {
     const q = $('amen-q').value.toLowerCase();
     $('amen-list').replaceChildren(...allAmenities.filter((a) => !q || a.name.toLowerCase().includes(q)).slice(0, 80).map((a) => {
@@ -189,6 +262,20 @@ function buildFilters() {
     labels(); applyFilters();
   } });
   redrawFilters = () => {
+    const topAreas = allAreas.slice(0, 8);
+    const topSet = new Set(topAreas.map((a) => a.name));
+    const extraAreas = crit.areas.filter((name) => !topSet.has(name));
+    $('f-areas').replaceChildren(
+      ...topAreas.map((a) => chip(`${esc(a.name)} <small>${a.n}</small>`, crit.areas.includes(a.name), () => toggleArea(a.name))),
+      ...extraAreas.map((name) => chip(`${esc(name)} ×`, true, () => toggleArea(name))),
+      chip($('area-more').hidden ? `All areas (${allAreas.length})` : 'Fewer', false, () => {
+        $('area-more').hidden = !$('area-more').hidden;
+        redrawFilters();
+        if (!$('area-more').hidden) { areaList(); $('area-q').focus(); }
+      }, 'chip more-chip'),
+      ...(crit.areas.length ? [chip('Clear', false, () => { crit.areas = []; redrawFilters(); applyFilters(); }, 'chip')] : []),
+    );
+    $('f-inview').checked = !!crit.bounds;
     $('f-kind').replaceChildren(...KINDS.map(([k, l, icon]) => chip(`<svg viewBox="0 0 24 24">${icon}</svg><span>${l}</span>`, crit.kinds.includes(k), () => { toggle(crit.kinds, k); redrawFilters(); applyFilters(); }, 'tile')));
     $('f-bhk').replaceChildren(...[1, 2, 3, 4, 5].map((n) => chip(n === 5 ? '5+' : String(n), crit.bhk.includes(n), () => {
       toggle(crit.bhk, n); if (n === 5) toggle(crit.bhk, 6); redrawFilters(); applyFilters(); })));
@@ -208,11 +295,12 @@ function buildFilters() {
     if (crit.roomArea) $('f-area-range').value = crit.roomArea / 9;
     sizeSlider.set(crit.minSqft || 0, crit.maxSqft ?? 8000);
     const rent = crit.mode === 'rent';
-    priceSlider.reconfig(rent ? { min: 0, max: 500, step: 5, fmt: (v, end) => (end === 'hi' && v >= 500 ? 'Any' : v ? `${formatINR(v * 1000)}/mo` : '₹0') }
+    priceSlider.reconfig(rent ? { min: 0, max: 250, step: 5, fmt: (v, end) => (end === 'hi' && v >= 250 ? 'Any' : v ? `${formatINR(v * 1000)}/mo` : '₹0') }
       : { min: 0, max: 20, step: 0.25, fmt: (v, end) => (end === 'hi' && v >= 20 ? 'Any' : v ? formatINR(v * 1e7) : '₹0') });
-    priceSlider.set(rent ? (crit.minRent || 0) / 1000 : (crit.minPrice || 0) / 1e7, rent ? (crit.maxRent ? crit.maxRent / 1000 : 500) : (crit.maxPrice ? crit.maxPrice / 1e7 : 20));
+    priceSlider.set(rent ? (crit.minRent || 0) / 1000 : (crit.minPrice || 0) / 1e7, rent ? (crit.maxRent ? Math.min(250, crit.maxRent / 1000) : 250) : (crit.maxPrice ? Math.min(20, crit.maxPrice / 1e7) : 20));
     $('f-ready').checked = crit.ready;
     $('f-only').checked = !!crit.only;
+    if (!$('area-more').hidden) areaList();
     if (!$('amen-more').hidden) amenList();
     labels();
   };
@@ -223,6 +311,7 @@ function buildFilters() {
     applyFilters();
   }
   function labels() {
+    $('v-area-filter').textContent = crit.areas.length === 1 ? crit.areas[0] : crit.areas.length > 1 ? `${crit.areas.length} areas` : crit.bounds ? 'Map view' : 'All';
     const range = (a, b, f) => (a && b ? `${f(a)} to ${f(b)}` : a ? `from ${f(a)}` : b ? `up to ${f(b)}` : 'Any');
     $('v-size').textContent = range(crit.minSqft, crit.maxSqft, (v) => `${v.toLocaleString()} sq ft`);
     const rent = crit.mode === 'rent';
@@ -237,6 +326,17 @@ function buildFilters() {
   document.querySelectorAll('#f-area-unit button').forEach((b) => (b.onclick = () => { areaUnit = b.dataset.u; redrawFilters(); }));
   $('f-area-range').oninput = readRoom;
   $('f-est').onchange = () => { crit.estimates = $('f-est').checked; applyFilters(); };
+  $('area-q').oninput = areaList;
+  $('f-inview').onchange = () => {
+    if ($('f-inview').checked) {
+      if (!map || !mapReady) { $('f-inview').checked = false; toast('Wait for the map to finish loading.'); return; }
+      syncVisibleBounds();
+    } else {
+      crit.bounds = null;
+      redrawFilters();
+      applyFilters();
+    }
+  };
   $('amen-q').oninput = amenList;
   $('f-ready').onchange = () => { crit.ready = $('f-ready').checked; applyFilters(); };
   $('f-sort').onchange = () => { sortBy = $('f-sort').value; renderResults(); };
@@ -257,12 +357,12 @@ function toggleLog(show = document.body.classList.contains('nolog')) {
 
 // ---------- apply and results ----------
 let waveTimer = null;
-function applyFilters(wave = false) {
+function applyFilters(wave = false, force = false) {
   const next = new Map(data.societies.map((s) => [s.id, matchSociety(s, crit)]));
-  const changed = [...next].filter(([id, st]) => states.get(id) !== st);
+  const changed = wave || force ? [...next] : [...next].filter(([id, st]) => states.get(id) !== st);
   states = next;
   clearInterval(waveTimer);
-  if (wave && map) {
+  if (wave && map && mapReady) {
     const c = OVERVIEW.center;
     changed.sort((a, b) => dist(byId.get(a[0]), c) - dist(byId.get(b[0]), c));
     let i = 0;
@@ -273,9 +373,11 @@ function applyFilters(wave = false) {
   if (selected) renderCard(byId.get(selected));
 }
 const dist = (s, c) => (s.lng - c[0]) ** 2 + (s.lat - c[1]) ** 2;
+const activePriceRange = () => (crit.mode === 'rent' ? { min: crit.minRent, max: crit.maxRent } : { min: crit.minPrice, max: crit.maxPrice });
 
 function sorted(list) {
-  const price = (s) => priceFor(s, crit.mode, crit.bhk)?.value ?? Infinity;
+  const r = activePriceRange();
+  const price = (s) => priceFor(s, crit.mode, crit.bhk, r)?.value ?? Infinity;
   const by = {
     best: (a, b) => RANK[states.get(b.id)] - RANK[states.get(a.id)] || b.verified - a.verified || (b.score || 0) - (a.score || 0),
     score: (a, b) => (b.score || 0) - (a.score || 0),
@@ -305,6 +407,19 @@ function renderResults() {
     ? [['match', 'Rooms read from floor plans: every bedroom passes'], ['likely', 'Likely: rooms read so far pass'], ['probable', 'Probably fits: estimated from unit size, plans not read yet']]
     : [['match', null]];
   const all = ranked();
+  if (!all.length) {
+    const empty = document.createElement('div');
+    empty.className = 'fine';
+    empty.innerHTML = 'No societies match your current filters. ';
+    const reset = chip('Reset filters', false, () => {
+      $('q').value = '';
+      $('q-pill').hidden = true;
+      useCriteria({ ...structuredClone(DEFAULT_CRITERIA), mode: crit.mode });
+    }, 'linkbtn');
+    empty.appendChild(reset);
+    $('results').replaceChildren(empty);
+    return;
+  }
   $('results').replaceChildren(...groups.flatMap(([st, title]) => {
     const list = rooms ? all.filter((s) => states.get(s.id) === st) : all;
     if (!list.length) return [];
@@ -322,7 +437,7 @@ function renderResults() {
 function resultItem(s) {
   const li = document.createElement('li');
   const st = states.get(s.id);
-  const p = priceFor(s, crit.mode, crit.bhk);
+  const p = priceFor(s, crit.mode, crit.bhk, activePriceRange());
   const money = p ? `${p.estimated ? '~' : ''}${formatINR(p.value)}${crit.mode === 'rent' ? '/mo' : ''}` : '';
   const how = s.verified ? ' · checked by hand' : s.ai_read ? ' · AI-read plans' : '';
   li.innerHTML = `<span class="nm">${myList.includes(s.id) ? '★ ' : ''}${esc(s.name)}<small>${esc(s.locality || '')}${how}</small></span>
@@ -543,8 +658,9 @@ function toast(msg) {
 function exportResults() {
   const cols = ['name', 'locality', 'verdict', 'type', crit.mode === 'rent' ? 'rent_from' : 'price_from', 'estimated', 'for_sale', 'for_rent', 'flat_finder_score', 'resident_rating', 'towers', 'units', 'nearest_park_m', 'nearest_metro_m', 'magicbricks_url', 'google_maps_url', 'flat_finder_url'];
   const q = (v) => (v == null ? '' : /[",\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : String(v));
+  const r = activePriceRange();
   const rows = ranked().map((s) => {
-    const p = priceFor(s, crit.mode, crit.bhk);
+    const p = priceFor(s, crit.mode, crit.bhk, r);
     return [s.name, s.locality, states.get(s.id), s.kind, p?.value, p ? p.estimated : '', s.sale_count, s.rent_count, s.score, s.rating, s.towers, s.units,
       s.nearby?.park?.m, s.nearby?.metro?.m, s.url, s.gmaps, `${location.origin}/?city=${cityId}&open=${s.id}`];
   });
@@ -624,52 +740,96 @@ function buildOnboarding() {
   if (!store.get('ff-onboarded', false) && !params.has('nointro') && !params.has('open') && !params.has('preset')) { show(); $('onboard').hidden = false; }
 }
 
-// ---------- society search ----------
+// ---------- society & area search ----------
 function buildSearch() {
   const input = $('q'), list = $('q-results');
-  let items = [], active = -1;
+  let entries = [], lastAreas = [], lastAll = [], active = -1;
   const close = () => { list.hidden = true; active = -1; };
+  const activate = (entry) => {
+    if (!entry) return;
+    if (entry.type === 'area') { close(); input.blur(); selectArea(entry.area.name); }
+    else if (entry.type === 'query') { close(); input.blur(); setQuery(entry.q); }
+    else if (entry.type === 'society') pick(entry.society);
+  };
   const render = () => {
-    const all = searchSocieties(data.societies, input.value, 400);
-    items = all.slice(0, 8);
-    if (!items.length) {
-      list.innerHTML = input.value.trim() ? '<li class="empty">No society by that name</li>' : '';
-      list.hidden = !input.value.trim();
+    const raw = input.value.trim();
+    lastAreas = searchAreas(allAreas, raw, 4);
+    lastAll = searchSocieties(data.societies, raw, 400);
+    const items = lastAll.slice(0, 8);
+    entries = [];
+    if (!lastAreas.length && !items.length) {
+      list.innerHTML = raw ? '<li class="empty">No area or society found</li>' : '';
+      list.hidden = !raw;
       return;
     }
-    const rows = items.map((s, i) => {
+    const rows = [];
+    for (const a of lastAreas) {
+      const idx = entries.length;
+      const entry = { type: 'area', area: a };
+      entries.push(entry);
       const li = document.createElement('li');
-      li.className = i === active ? 'on' : '';
+      li.className = `showall${idx === active ? ' on' : ''}`;
+      li.innerHTML = `<span>Filter area: ${esc(a.name)}</span><span class="tag">${a.n} ${a.n === 1 ? 'society' : 'societies'}</span>`;
+      li.onmousedown = (e) => { e.preventDefault(); activate(entry); };
+      rows.push(li);
+    }
+    if (lastAll.length > 1) {
+      const idx = entries.length;
+      const entry = { type: 'query', q: raw };
+      entries.push(entry);
+      const li = document.createElement('li');
+      li.className = `showall${idx === active ? ' on' : ''}`;
+      li.innerHTML = `<span>Show all ${lastAll.length} matching "${esc(raw)}" on the map</span>`;
+      li.onmousedown = (e) => { e.preventDefault(); activate(entry); };
+      rows.push(li);
+    }
+    for (const s of items) {
+      const idx = entries.length;
+      const entry = { type: 'society', society: s };
+      entries.push(entry);
+      const li = document.createElement('li');
+      li.className = idx === active ? 'on' : '';
       li.innerHTML = `<span>${esc(s.name)}</span><span class="tag ${states.get(s.id)}">${esc(s.locality || '')}${s.verified ? ' · verified' : ''}</span><button class="iconbtn star ${myList.includes(s.id) ? 'on' : ''}" title="Add to my list">${myList.includes(s.id) ? '★' : '☆'}</button>`;
       li.onmousedown = (e) => {
         e.preventDefault();
         if (e.target.closest('.star')) { toggle(myList, s.id); saveList(); renderResults(); render(); return; }
-        pick(s);
+        activate(entry);
       };
-      return li;
-    });
-    if (all.length > 1) {
-      const li = document.createElement('li');
-      li.className = 'showall';
-      li.innerHTML = `<span>Show all ${all.length} matching "${esc(input.value.trim())}" on the map</span>`;
-      li.onmousedown = (e) => { e.preventDefault(); setQuery(input.value.trim()); close(); input.blur(); };
-      rows.unshift(li);
+      rows.push(li);
     }
     list.replaceChildren(...rows);
     list.hidden = false;
   };
   const pick = (s) => { stopTour(); input.value = s.name; close(); input.blur(); if (mobile) window.scrollTo(0, 0); openSociety(s.id); };
-  input.oninput = () => { active = -1; render(); };
+  input.oninput = () => {
+    active = -1;
+    if (!input.value.trim() && crit.q) setQuery('');
+    render();
+  };
   input.onfocus = render;
   input.onblur = close;
   input.onkeydown = (e) => {
     if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
       e.preventDefault();
-      if (!items.length) return;
-      active = (active + (e.key === 'ArrowDown' ? 1 : -1) + items.length) % items.length;
+      if (!entries.length) return;
+      active = (active + (e.key === 'ArrowDown' ? 1 : -1) + entries.length) % entries.length;
       render();
-    } else if (e.key === 'Enter' && items.length) pick(items[Math.max(0, active)]);
-    else if (e.key === 'Escape') { close(); input.blur(); }
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      if (active >= 0 && entries[active]) { activate(entries[active]); return; }
+      const raw = input.value.trim();
+      if (!raw) return;
+      const nq = normText(raw);
+      if (lastAreas.length && (lastAreas[0].key === nq || (lastAreas.length === 1 && lastAll.length > 1))) {
+        close(); input.blur(); selectArea(lastAreas[0].name);
+      } else if (lastAll.length > 1) {
+        close(); input.blur(); setQuery(raw);
+      } else if (lastAll.length === 1) {
+        pick(lastAll[0]);
+      } else if (lastAreas.length) {
+        close(); input.blur(); selectArea(lastAreas[0].name);
+      }
+    } else if (e.key === 'Escape') { close(); input.blur(); }
   };
   addEventListener('keydown', (e) => {
     if (e.key === '/' && !/INPUT|SELECT|TEXTAREA/.test(document.activeElement?.tagName)) { e.preventDefault(); input.focus(); }
@@ -678,16 +838,18 @@ function buildSearch() {
 
 function setQuery(q) {
   crit.q = q;
+  if (q && crit.bounds) {
+    crit.bounds = null;
+    $('f-inview').checked = false;
+    redrawFilters();
+  }
   $('q-pill').hidden = !q;
-  $('q-pill').innerHTML = q ? `Showing names matching "<b>${esc(q)}</b>" <button class="iconbtn" aria-label="Clear">×</button>` : '';
+  $('q-pill').innerHTML = q ? `Showing matches for "<b>${esc(q)}</b>" <button class="iconbtn" aria-label="Clear">×</button>` : '';
   $('q-pill').querySelector('button')?.addEventListener('click', () => { $('q').value = ''; setQuery(''); });
   applyFilters();
   if (q && map) {
     const hits = data.societies.filter((s) => states.get(s.id) !== 'no');
-    if (hits.length) {
-      const b = hits.reduce((bb, s) => bb.extend([s.lng, s.lat]), new maplibregl.LngLatBounds([hits[0].lng, hits[0].lat], [hits[0].lng, hits[0].lat]));
-      map.fitBounds(b, { padding: { top: 80, bottom: 80, left: mobile ? 40 : 380, right: mobile ? 40 : 460 }, maxZoom: 15, bearing: 0 });
-    }
+    fitSocieties(hits);
   }
 }
 

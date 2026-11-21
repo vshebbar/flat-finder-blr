@@ -1,4 +1,5 @@
 // Pure filter logic. A society is "match", "likely", "unknown" (not checked yet) or "no".
+import { normText } from './search.js';
 
 export const RANK = { match: 4, likely: 3, probable: 2, unknown: 1, no: 0 };
 
@@ -9,7 +10,9 @@ export const DEFAULT_CRITERIA = {
   roomArea: null,   // sq ft: every bedroom at least this big (used instead of room when set)
   estimates: true,  // allow "probable" from unit-size estimates when plans are unread
   near: [],         // nearby keys, see NEAR
-  q: '',            // name filter from search
+  areas: [],        // selected locality/area names
+  bounds: null,     // optional map viewport { west, south, east, north }
+  q: '',            // name/area filter from search
   only: null,       // array of society ids (my list) or null
   minSqft: 0,
   maxSqft: null,
@@ -114,13 +117,22 @@ export function matchUnit(u, c) {
   return u.rooms_complete ? 'match' : 'likely';
 }
 
-const norm = (t) => (t || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
-
 export function matchSociety(s, c) {
   if (c.only && !c.only.includes(s.id)) return 'no';
+  if (c.bounds) {
+    if (s.lng == null || s.lat == null) return 'no';
+    if (s.lng < c.bounds.west || s.lng > c.bounds.east || s.lat < c.bounds.south || s.lat > c.bounds.north) return 'no';
+  }
+  if (c.areas?.length) {
+    const loc = normText(s.locality);
+    if (!c.areas.some((a) => {
+      const words = normText(a).split(' ').filter(Boolean);
+      return words.length && words.every((w) => loc.includes(w));
+    })) return 'no';
+  }
   if (c.q) {
-    const hay = `${norm(s.name)} ${norm(s.developer)} ${norm(s.locality)}`;
-    if (!norm(c.q).split(' ').every((w) => hay.includes(w))) return 'no';
+    const hay = `${normText(s.name)} ${normText(s.developer)} ${normText(s.locality)}`;
+    if (!normText(c.q).split(' ').filter(Boolean).every((w) => hay.includes(w))) return 'no';
   }
   if (c.kinds.length && !c.kinds.includes(s.kind)) return 'no';
   for (const key of c.near || []) if (!isNear(s, key)) return 'no';
@@ -128,9 +140,8 @@ export function matchSociety(s, c) {
   const budget = c.mode === 'rent' ? c.maxRent : c.maxPrice;
   const floor = c.mode === 'rent' ? c.minRent : c.minPrice;
   if (budget || floor) {
-    const p = priceFor(s, c.mode, c.bhk);
-    if (p && budget && p.value > budget) return 'no';
-    if (p && floor && p.value < floor) return 'no';
+    const list = pricesFor(s, c.mode, c.bhk);
+    if (list.length && !list.some((p) => (!budget || p.value <= budget) && (!floor || p.value >= floor))) return 'no';
   }
   for (const key of c.amenities) if (!hasAmenity(s, key)) return 'no';
 
@@ -154,19 +165,32 @@ export function feetLabel(ft) {
   return `${f}'${i}"`;
 }
 
-// Cheapest price for the chosen BHKs: listing median first, our estimate otherwise. null when unknown.
+// All usable per-BHK prices (listing median first, else estimate), cheapest first.
 // Medians flagged as likely typos (p.flags) are skipped, so one mistyped listing cannot hide or promote a society.
-export function priceFor(s, mode, bhk = []) {
-  let best = null;
+export function pricesFor(s, mode, bhk = []) {
+  const out = [];
   for (const [b, p] of Object.entries(s.prices || {})) {
     if (bhk.length && !bhk.includes(+b)) continue;
     const real = p.flags?.[mode] ? null : p[mode]?.median;
     const est = p[`${mode}_est`]?.value;
     const v = real ?? est;
-    if (v && (!best || v < best.value)) best = { value: v, estimated: real == null, bhk: +b, basis: real == null ? p[`${mode}_est`].basis : null, n: real == null ? null : p[mode]?.n };
+    if (v) out.push({ value: v, estimated: real == null, bhk: +b, basis: real == null ? p[`${mode}_est`].basis : null, n: real == null ? null : p[mode]?.n });
   }
-  if (!best && mode === 'buy' && s.price_min && !bhk.length) best = { value: s.price_min, estimated: false, bhk: null, basis: 'builder price range' };
-  return best;
+  if (!out.length && mode === 'buy' && s.price_min && !bhk.length) {
+    out.push({ value: s.price_min, estimated: false, bhk: null, basis: 'builder price range' });
+  }
+  return out.sort((a, b) => a.value - b.value);
+}
+
+// Cheapest price for the chosen BHKs (preferring one inside the active range when provided). null when unknown.
+export function priceFor(s, mode, bhk = [], range = null) {
+  const list = pricesFor(s, mode, bhk);
+  if (!list.length) return null;
+  if (range && (range.min || range.max)) {
+    const inRange = list.find((p) => (!range.min || p.value >= range.min) && (!range.max || p.value <= range.max));
+    if (inRange) return inRange;
+  }
+  return list[0];
 }
 
 export function formatINR(r) {
